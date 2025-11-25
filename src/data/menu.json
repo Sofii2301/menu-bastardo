@@ -1,0 +1,23 @@
+[
+    {  
+        "id": 1, 
+        "name": "Mojito Clásico", 
+        "category": "Cócteles", 
+        "price": 850, 
+        "desc": "Ron blanco, hierbabuena, lima, azúcar, soda" 
+    },
+    { 
+        "id": 2, 
+        "name": "Negroni", 
+        "category": "Cócteles", 
+        "price": 950, 
+        "desc": "Ginebra, Campari, vermut rojo" 
+    },
+    { 
+        "id": 3, 
+        "name": "Cerveza Rubia", 
+        "category": "Bebidas", 
+        "price": 420, 
+        "desc": "Chop 500ml - cerveza artesanal" 
+    }
+]

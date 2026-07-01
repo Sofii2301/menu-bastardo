@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "category": "Especiales"
+    },
+    {
+        "id": 2,
+        "category": "Hamburguesas",
+        "desc": "Medallones de carne de elaboración propia (150 gr c/u) y se sirven en pan de papa."
+    },
+    {
+        "id": 3,
+        "category": "Sándwiches en Pan Ciabatta"
+    },
+    {
+        "id": 4,
+        "category": "Pizzas",
+        "desc": "6 porciones"
+    },
+    {
+        "id": 5,
+        "category": "Pastas caseras",
+        "desc": "Podes elegirlas con las siguientes salsas: Boloñesa clásica, salsa blanca, salsa rosa y salsa 4 quesos."
+    },
+    {
+        "id": 6,
+        "category": "Tapeos"
+    },
+    {
+        "id": 7,
+        "category": "Papas"
+    },
+    {
+        "id": 8,
+        "category": "Fritos"
+    },
+    {
+        "id": 9,
+        "category": "Milanesas al plato",
+        "desc": ""
+    },
+    {
+        "id": 10,
+        "category": "Ensaladas",
+        "desc": ""
+    },
+    {
+        "id": 11,
+        "category": "Postres",
+        "desc": ""
+    },
+    {
+        "id": 12,
+        "category": "Café",
+        "desc": ""
+    },
+    {
+        "id": 13,
+        "category": "Cafés Fríos",
+        "desc": ""
+    },
+    {
+        "id": 14,
+        "category": "Jugos",
+        "desc": "Jarra: $12.000"
+    },
+    {
+        "id": 15,
+        "category": "Tortas",
+        "desc": ""
+    },
+    {
+        "id": 16,
+        "category": "Cookies",
+        "desc": ""
+    },
+    {
+        "id": 17,
+        "category": "Brunch",
+        "desc": ""
+    },
+    {
+        "id": 18,
+        "category": "Sándwiches en Pan de Campo",
+        "desc": ""
+    },
+    {
+        "id": 19,
+        "category": "Bebidas sin alcohol",
+        "desc": ""
+    },
+    {
+        "id": 20,
+        "category": "Cervezas tiradas",
+        "desc": "(Pinta)"
+    },
+    {
+        "id": 21,
+        "category": "Cervezas",
+        "desc": ""
+    },
+    {
+        "id": 22,
+        "category": "Tragos clásicos",
+        "desc": ""
+    },
+    {
+        "id": 23,
+        "category": "Menú Sin TACC",
+        "desc": "Libre de gluten"
+    }
+]

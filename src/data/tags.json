@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "category": "Especiales"
+    },
+    {
+        "id": 2,
+        "category": "Hamburguesas"
+    },
+    {
+        "id": 3,
+        "category": "Pizzas"
+    },
+    {
+        "id": 4,
+        "category": "Tapeos"
+    },
+    {
+        "id": 5,
+        "category": "Papas"
+    },
+    {
+        "id": 6,
+        "category": "Postres"
+    },
+    {
+        "id": 7,
+        "category": "Café"
+    },
+    {
+        "id": 8,
+        "category": "Tortas"
+    },
+    {
+        "id": 9,
+        "category": "Brunch"
+    },
+    {
+        "id": 10,
+        "category": "Bebidas"
+    },
+    {
+        "id": 11,
+        "category": "Sin T.A.C.C."
+    }
+]

@@ -1,18 +1,25 @@
-import { MenuGrid } from '../organisms/Menu';
+import { Menu } from '../organisms/Menu';
+import "./menuTemplate.css"
+import logo from "../../assets/logo.png";
 
 export function MenuTemplate({ categoryLinks, groupedItems }) {
     return (
-        <div className="min-h-screen bg-gray-50 p-6 md:p-12 font-sans max-w-5xl mx-auto">
-            <header className="mb-6">
-                <h1 className="text-4xl font-extrabold">BASTARDO</h1>
-                <p className="text-gray-600 text-sm">Sacá el BASTARDO que llevas dentro</p>
-            </header>
+        <div className="container d-flex flex-column align-items-center col-12 col-md-6 py-4 rounded-4">
+            <div className="container-heading d-flex flex-column justify-content-around align-items-center">
+                <header className="mb-4 h-50 text-center d-flex flex-column align-items-center justify-content-center">
+                    <img src={logo} alt="Bastardo" className='logo'/>
+                    <h2 className="small tenor-sans-regular">Sacá el BASTARDO que llevas dentro</h2>
+                </header>
+                <div className='d-flex h-50 flex-column align-items-center'>
+                    <nav className="nav-category d-flex pb-2 mb-4">
+                        {categoryLinks}
+                    </nav>
+                </div>
+                
+            </div>
+            
 
-            <nav className="flex gap-3 overflow-x-auto mb-8">
-                {categoryLinks}
-            </nav>
-
-            <MenuGrid grouped={groupedItems} />
+            <Menu grouped={groupedItems} />
         </div>
     );
 }

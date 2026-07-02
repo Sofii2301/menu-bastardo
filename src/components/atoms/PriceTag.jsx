@@ -1,3 +1,11 @@
+import { formatPrice } from "../../js/format";
+
 export function PriceTag({ value }) {
-    return <span className="font-semibold text-gray-800">${value}</span>;
+    const isNumber = typeof value === "number";
+
+    return (
+        <span className="tenor-sans-regular price">
+            {isNumber ? `$${formatPrice(value)}` : value}
+        </span>
+    );
 }

@@ -1,3 +1,3 @@
 export function CategoryTag({ category }) {
-return <span className="text-xs text-gray-500">{category}</span>;
+return <span className="badge bg-light text-white border">{category}</span>;
 }

@@ -1,7 +1,8 @@
-import { MenuCard } from '../molecules/MenuCard';
-import { OptionCard } from '../molecules/OptionCard';
-import { CoffeeTable } from '../molecules/CoffeeTable';
-import categories from '../../data/categories.json';
+import { MenuCard } from '../../molecules/MenuCard';
+import { OptionCard } from '../../molecules/OptionCard';
+import { CoffeeTable } from '../../molecules/CoffeeTable';
+import categories from '../../../data/categories.json';
+import "./menu.css"
 
 const coffeeSizes = ["Chico", "Mediano", "Grande"];
 
@@ -59,7 +60,7 @@ export function Menu({ grouped }) {
                     <section
                         key={catName}
                         id={catName}
-                        className="mb-5 pt-4"
+                        className="menu-section mb-5 pt-4"
                     >
                         <div className="category-title mb-4">
                             <h1 className="category-title mb-1 text-center w-100 bebas-neue-regular">

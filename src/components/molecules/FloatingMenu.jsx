@@ -9,9 +9,11 @@ import ball from "../../assets/ball_icon.png";
 import { FloatingButton } from "../atoms/FloatingButton";
 import { WorldCupModal } from "../organisms/WorldCupModal/WorldCupModal";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function FloatingMenu() {
     const [showModal, setShowModal] = useState(false);
+    const navigate = useNavigate();
     const [code, setCode] = useState("");
 
     return (
@@ -69,7 +71,11 @@ export function FloatingMenu() {
                         alert("El código debe tener 6 caracteres.");
                         return;
                     }
-                    console.log(code);
+                    navigate("/prediction", {
+                        state: {
+                            code
+                        }
+                    });
                 }}
             />
         </div>

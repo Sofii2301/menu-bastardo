@@ -1,13 +1,17 @@
-import './App.css'
-import Menu from './pages/MenuPage'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MenuPage from "./pages/MenuPage";
+import PredictionPage from "./pages/PredictionPage";
+import "./App.css"
 
 function App() {
-
-  return (
-    <div className='bg-black bg-opacity-50 text-white'>
-      <Menu/>
-    </div>
-  )
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MenuPage />} />
+                <Route path="/prediction" element={<PredictionPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;

@@ -1,5 +1,12 @@
-export const PredictionPage = () => {
+import { useLocation } from "react-router-dom";
+import { PredictionTemplate } from "../components/templates/PredictionTemplate";
+
+export default function PredictionPage() {
+
+    const { state } = useLocation();
+
     return (
-        <div>PredictionPage</div>
-    )
+        <PredictionTemplate code={state?.code} />
+    );
+
 }

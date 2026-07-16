@@ -2,9 +2,8 @@ export const initialPrediction = {
     name: "",
     contact: "",
     instagram: "",
-    dni: "",
     argentina: "",
-    rival: ""
+    españa: ""
 };
 
 export function handlePredictionChange(setForm) {
@@ -14,4 +13,22 @@ export function handlePredictionChange(setForm) {
             [target.name]: target.value
         }));
     };
+}
+
+export function validatePrediction(form){
+
+    if(!form.name.trim())
+        return "Ingresá tu nombre.";
+
+    if(!form.contact.trim())
+        return "Ingresá un teléfono.";
+
+    if(form.argentina === "")
+        return "Ingresá el resultado.";
+
+    if(form.españa === "")
+        return "Ingresá el resultado.";
+
+    return null;
+
 }

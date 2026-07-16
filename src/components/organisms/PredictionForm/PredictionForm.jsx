@@ -3,24 +3,12 @@ import arg from "../../../assets/arg.png";
 import esp from "../../../assets/esp.png";
 import "./predictionForm.css"
 
-export function PredictionForm({ code }) {
-
-    const [form, setForm] = useState({
-        name: "",
-        contact: "",
-        instagram: "",
-        dni: "",
-        argentina: "",
-        españa: ""
-    });
-
-    const handleChange = ({ target }) => {
-        setForm({
-            ...form,
-            [target.name]: target.value
-        });
-    };
-
+export function PredictionForm({
+    code,
+    form,
+    onChange,
+    onSubmit
+}) {
     return (
         <div className="card border-0 shadow rounded-4 p-4 tenor-sans-regular col-lg-8 col-md-12">
 
@@ -54,7 +42,7 @@ export function PredictionForm({ code }) {
                     className="form-control"
                     name="name"
                     value={form.name}
-                    onChange={handleChange}
+                    onChange={onChange}
                 />
 
             </div>
@@ -69,7 +57,7 @@ export function PredictionForm({ code }) {
                     className="form-control"
                     name="contact"
                     value={form.contact}
-                    onChange={handleChange}
+                    onChange={onChange}
                 />
 
             </div>
@@ -90,7 +78,7 @@ export function PredictionForm({ code }) {
                         className="form-control"
                         name="instagram"
                         value={form.instagram}
-                        onChange={handleChange}
+                        onChange={onChange}
                     />
 
                 </div>
@@ -124,7 +112,7 @@ export function PredictionForm({ code }) {
                         className="form-control text-center"
                         name="argentina"
                         value={form.argentina}
-                        onChange={handleChange}
+                        onChange={onChange}
                     />
 
                 </div>
@@ -155,7 +143,7 @@ export function PredictionForm({ code }) {
                         className="form-control text-center"
                         name="españa"
                         value={form.españa}
-                        onChange={handleChange}
+                        onChange={onChange}
                     />
 
                 </div>
@@ -163,7 +151,9 @@ export function PredictionForm({ code }) {
             </div>
 
             <button
+                type="button"
                 className="btn btn-dark w-100 mt-5"
+                onClick={onSubmit}
             >
                 Participar
             </button>

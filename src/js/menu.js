@@ -22,12 +22,3 @@ export function groupByCategory(items) {
 
     return grouped;
 }
-
-export function scrollToSection(e, id) {
-    e.preventDefault();
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ 
-        behavior: "smooth", 
-        block: "start" 
-    });
-}

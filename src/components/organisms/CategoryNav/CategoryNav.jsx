@@ -1,7 +1,5 @@
 import { useRef } from "react";
 
-import { scrollToSection } from "../../../js/menu";
-
 import "./categoryNav.css";
 import { useCategoryNav } from "../../../hooks/useCategoryNav";
 import { CategoryButton } from "../../molecules/CategoryButton";

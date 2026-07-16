@@ -1,6 +1,6 @@
 import { MenuCard } from '../../molecules/MenuCard';
 import { OptionCard } from '../../molecules/OptionCard';
-import { CoffeeTable } from '../../molecules/CoffeeTable';
+import { Table } from '../../molecules/Table';
 import categories from '../../../data/categories.json';
 import "./menu.css"
 
@@ -15,47 +15,6 @@ export function Menu({ grouped }) {
 
                 if (!group || group.items.length === 0) return null;
 
-                if (catName === "Café") {
-                    const tableCoffees = group.items.filter(item =>
-                        coffeeSizes.includes(item.desc)
-                    );
-
-                    const cardCoffees = group.items.filter(item =>
-                        !coffeeSizes.includes(item.desc)
-                    );
-                    return (
-                        <section
-                            key={catName}
-                            id={catName}
-                            className="mb-5 pt-4"
-                        >
-                            <h2 className="category-title bebas-neue-regular mb-1 text-center w-100 ">
-                                {catName}
-                            </h2>
-
-                            {group.desc && (
-                                <p className="text-white text-center mb-3">
-                                    {group.desc}
-                                </p>
-                            )}
-
-                            {/* Cafés con tamaños → tabla */}
-                            {tableCoffees.length > 0 && (
-                                <CoffeeTable items={tableCoffees} />
-                            )}
-
-                            {/* Cafés sin tamaños → cards */}
-                            <div className="d-flex flex-column justify-content-center g-3">
-                                {cardCoffees.map((item) => (
-                                    <div key={item.id} className="col-12 mt-2">
-                                        <MenuCard item={item} />
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    );
-                }
-
                 return (
                     <section
                         key={catName}
@@ -68,25 +27,31 @@ export function Menu({ grouped }) {
                             </h1>
 
                             {group.desc && (
-                                <p className="category-desc tenor-sans-regular text-white text-center mb-3">
+                                <p className="category-desc tenor-sans-regular text-white text-uppercase text-center mb-3">
                                     {group.desc}
                                 </p>
                             )}
                         </div>
                         
                         <div className="d-flex flex-column justify-content-center g-3">
-                            {group.items.map((item) => (
-                                /*(item.desc === "muted") ? (
-                                    <div key={item.id} className="col-12">
-                                        <OptionCard item={item} />
-                                    </div>
-                                ) : (
-                                    <div key={item.id} className="col-12 mt-2">
-                                        <MenuCard item={item} />
-                                    </div>
-                                )*/
-                               <MenuCard item={item} muted={item.desc === "muted"}/>
-                            ))}
+                            {group.items.map(item => {
+                                console.log(item.layout)
+                                if(item.layout === "table"){
+                                    return (
+                                        <Table
+                                            key={item.id}
+                                            item={item}
+                                        />
+                                    );
+                                }
+                                return (
+                                    <MenuCard
+                                        key={item.id}
+                                        item={item}
+                                        muted={item.desc === "muted"}
+                                    />
+                                )
+                            })}
                         </div>
                     </section>
                 );

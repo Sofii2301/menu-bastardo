@@ -13,6 +13,10 @@
         "category": "Sándwiches en Pan Ciabatta"
     },
     {
+        "id": 23,
+        "category": "Entradas"
+    },
+    {
         "id": 4,
         "category": "Pizzas",
         "desc": "6 porciones"
@@ -32,80 +36,76 @@
     },
     {
         "id": 8,
-        "category": "Fritos"
+        "category": "Milanesas al plato",
+        "desc": "Podes elegirlas con las siguientes guarniciones: papas fritas; puré de papas; ensalada de lechuga y tomate.\n\nPodes agregarle un huevo frito por $2.000"
     },
     {
         "id": 9,
-        "category": "Milanesas al plato",
-        "desc": ""
-    },
-    {
-        "id": 10,
         "category": "Ensaladas",
         "desc": ""
     },
     {
-        "id": 11,
+        "id": 10,
         "category": "Postres",
         "desc": ""
     },
     {
-        "id": 12,
+        "id": 11,
         "category": "Café",
         "desc": ""
     },
     {
-        "id": 13,
+        "id": 12,
         "category": "Cafés Fríos",
         "desc": ""
     },
     {
-        "id": 14,
+        "id": 13,
         "category": "Jugos",
         "desc": "Jarra: $12.000"
     },
     {
-        "id": 15,
+        "id": 14,
         "category": "Tortas",
         "desc": ""
     },
     {
-        "id": 16,
+        "id": 15,
         "category": "Cookies",
         "desc": ""
     },
     {
-        "id": 17,
+        "id": 16,
         "category": "Brunch",
         "desc": ""
     },
     {
-        "id": 18,
+        "id": 17,
         "category": "Sándwiches en Pan de Campo",
         "desc": ""
     },
     {
-        "id": 19,
+        "id": 18,
         "category": "Bebidas sin alcohol",
         "desc": ""
     },
     {
-        "id": 20,
+        "id": 19,
         "category": "Cervezas tiradas",
         "desc": "(Pinta)"
     },
     {
-        "id": 21,
+        "id": 20,
         "category": "Cervezas",
         "desc": ""
     },
     {
-        "id": 22,
+        "id": 21,
         "category": "Tragos clásicos",
         "desc": ""
     },
     {
-        "id": 23,
+        "id": 22,
         "category": "Menú Sin TACC",
         "desc": "Libre de gluten"
     }

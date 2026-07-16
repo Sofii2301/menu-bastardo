@@ -1,11 +1,14 @@
 import { PriceTag } from '../atoms/PriceTag'
 
-export function OptionCard({ item }) {
+export function OptionCard({ option, name }) {
     return (
-        <article className="border-0 px-2">
+        <article className="border-0">
             <div className="d-flex justify-content-between align-items-start">
-                <h6 className="">{item.name}</h6>
-                <PriceTag value={item.price} />
+                {name 
+                    ? <span className="tenor-sans-regular-options text-uppercase">{option.label}</span>
+                    : <h2 className="bebas-neue-regular-options text-uppercase">{option.label}</h2>
+                }
+                <PriceTag value={option.price} />
             </div>
         </article>
     );

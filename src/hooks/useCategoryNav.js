@@ -26,24 +26,25 @@ export function useCategoryNav() {
     };
 
     useEffect(() => {
+
         const nav = navRef.current;
 
-        const handleWindowScroll = () => {
-            setVisible(window.scrollY >= showAt);
-        };
-
         updateArrows();
-        handleWindowScroll();
+
+        const handleScroll = () => {
+            setVisible(window.scrollY > 220);
+        };
 
         nav?.addEventListener("scroll", updateArrows);
         window.addEventListener("resize", updateArrows);
-        window.addEventListener("scroll", handleWindowScroll);
+        window.addEventListener("scroll", handleScroll);
 
         return () => {
             nav?.removeEventListener("scroll", updateArrows);
             window.removeEventListener("resize", updateArrows);
-            window.removeEventListener("scroll", handleWindowScroll);
+            window.removeEventListener("scroll", handleScroll);
         };
+
     }, []);
 
     return {

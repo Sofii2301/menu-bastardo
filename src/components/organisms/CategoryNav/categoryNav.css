@@ -44,11 +44,6 @@
     display:none;
 }
 
-.btn-category-nav{
-    flex-shrink:0;           
-    white-space:nowrap;
-}
-
 .nav-arrow{
     width:38px;
     height:38px;

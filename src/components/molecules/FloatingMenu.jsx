@@ -24,6 +24,8 @@ export function FloatingMenu() {
         validatePredictionCode
     );
 
+    const active = false;
+
     return (
 
         <div
@@ -35,7 +37,7 @@ export function FloatingMenu() {
             }}
         >
 
-            <FloatingButton
+            {active && <FloatingButton
                 icon={
                     <img
                         src={ball}
@@ -44,7 +46,7 @@ export function FloatingMenu() {
                 }
                 color="warning"
                 onClick={() => setShowModal(true)}
-            />
+            />}
 
             <FloatingButton
                 href="https://maps.app.goo.gl/6BQe2BgBo9Qgg9fUA"

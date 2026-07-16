@@ -1,7 +1,7 @@
 const API = import.meta.env.VITE_API;
 
 export async function validatePredictionCode(code) {
-    const response = await fetch(`${API}/prediction/validate`, {
+    const response = await fetch(`${API}/validatePrediction`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

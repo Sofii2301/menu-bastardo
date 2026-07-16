@@ -3,6 +3,7 @@ import "./menuTemplate.css"
 import logo from "../../assets/logo.png";
 import { CategoryNav } from '../organisms/CategoryNav/CategoryNav';
 import { CategoryButton } from '../molecules/CategoryButton';
+import { FloatingMenu } from '../molecules/FloatingMenu';
 
 export function MenuTemplate({ categories, groupedItems }) {
     const categoryLinks = categories
@@ -29,6 +30,7 @@ export function MenuTemplate({ categories, groupedItems }) {
                     </div>
                 </div>
                 <Menu grouped={groupedItems} />
+                <FloatingMenu />
             </div>
         </>
     );

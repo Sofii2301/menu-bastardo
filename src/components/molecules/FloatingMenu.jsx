@@ -7,8 +7,12 @@ import pedidosYa from "../../assets/pedidosya.png";
 import ball from "../../assets/ball_icon.png";
 
 import { FloatingButton } from "../atoms/FloatingButton";
+import { WorldCupModal } from "../organisms/WorldCupModal/WorldCupModal";
+import { useState } from "react";
 
 export function FloatingMenu() {
+    const [showModal, setShowModal] = useState(false);
+    const [code, setCode] = useState("");
 
     return (
 
@@ -29,6 +33,7 @@ export function FloatingMenu() {
                     />
                 }
                 color="warning"
+                onClick={() => setShowModal(true)}
             />
 
             <FloatingButton
@@ -54,6 +59,19 @@ export function FloatingMenu() {
                 color="success"
             />
 
+            <WorldCupModal
+                show={showModal}
+                code={code}
+                setCode={setCode}
+                onClose={() => setShowModal(false)}
+                onContinue={() => {
+                    if(code.trim().length !== 6){
+                        alert("El código debe tener 6 caracteres.");
+                        return;
+                    }
+                    console.log(code);
+                }}
+            />
         </div>
 
     );

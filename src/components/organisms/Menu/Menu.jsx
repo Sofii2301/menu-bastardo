@@ -35,7 +35,6 @@ export function Menu({ grouped }) {
                         
                         <div className="d-flex flex-column justify-content-center g-3">
                             {group.items.map(item => {
-                                console.log(item.layout)
                                 if(item.layout === "table"){
                                     return (
                                         <Table

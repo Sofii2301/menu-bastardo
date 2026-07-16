@@ -24,7 +24,7 @@ export function FloatingMenu() {
         validatePredictionCode
     );
 
-    const active = false;
+    const active = true;
 
     return (
 

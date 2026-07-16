@@ -32,3 +32,39 @@ export function validatePrediction(form){
     return null;
 
 }
+
+export function handlePredictionCode(
+    code,
+    navigate,
+    validateCode
+) {
+
+    return async () => {
+
+        if (code.trim().length !== 6) {
+            alert("Ingresá un código válido.");
+            return;
+        }
+
+        try {
+
+            const response = await validateCode(code);
+
+            if (!response.ok) {
+                alert(response.message);
+                return;
+            }
+
+            navigate("/prediction", {
+                state: { code }
+            });
+
+        } catch {
+
+            alert("No se pudo validar el código.");
+
+        }
+
+    };
+
+}

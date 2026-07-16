@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { PredictionTemplate } from "../components/templates/PredictionTemplate";
 import {
@@ -15,6 +15,12 @@ export default function PredictionPage() {
     const { state } = useLocation();
 
     const [form, setForm] = useState(initialPrediction);
+
+    useEffect(() => {
+        if (!state?.code) {
+            navigate("/");
+        }
+    }, [state, navigate]);
 
     const handleChange = handlePredictionChange(setForm);
 
@@ -34,17 +40,11 @@ export default function PredictionPage() {
                 ...form
             });
 
-            if (response.ok) {
-
-                alert("¡Participación registrada con éxito!");
-
-                navigate("/");
-
-            } else {
-
+            if (!response.ok) {
                 alert(response.message);
-
-            }
+            } 
+            alert("¡Participación registrada con éxito!");
+            navigate("/");
 
         } catch {
 

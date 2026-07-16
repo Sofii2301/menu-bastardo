@@ -10,11 +10,19 @@ import { FloatingButton } from "../atoms/FloatingButton";
 import { WorldCupModal } from "../organisms/WorldCupModal/WorldCupModal";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { validatePredictionCode } from "../../services/predictionService";
+import { handlePredictionCode } from "../../js/prediction";
 
 export function FloatingMenu() {
     const [showModal, setShowModal] = useState(false);
     const navigate = useNavigate();
     const [code, setCode] = useState("");
+
+    const handleContinue = handlePredictionCode(
+        code,
+        navigate,
+        validatePredictionCode
+    );
 
     return (
 
@@ -66,17 +74,7 @@ export function FloatingMenu() {
                 code={code}
                 setCode={setCode}
                 onClose={() => setShowModal(false)}
-                onContinue={() => {
-                    if(code.trim().length !== 6){
-                        alert("El código debe tener 6 caracteres.");
-                        return;
-                    }
-                    navigate("/prediction", {
-                        state: {
-                            code
-                        }
-                    });
-                }}
+                onContinue={handleContinue}
             />
         </div>
 

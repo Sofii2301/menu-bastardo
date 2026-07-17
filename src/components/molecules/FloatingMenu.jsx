@@ -14,7 +14,7 @@ import { validatePredictionCode } from "../../services/predictionService";
 import { handlePredictionCode } from "../../js/prediction";
 
 export function FloatingMenu() {
-    const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(true);
     const navigate = useNavigate();
     const [code, setCode] = useState("");
     const [loading, setLoading] = useState(false);

@@ -4,7 +4,7 @@ import { OptionCard } from './OptionCard';
 
 export function SuccessCard({ onBack }) {
     return (
-        <div className="card border-0 shadow rounded-4 p-5 text-center">
+        <div className="card border-0 shadow rounded-4 p-5 text-center m-5 d-flex align-items-center">
 
             <div className="display-1 mb-3">
                 ✅

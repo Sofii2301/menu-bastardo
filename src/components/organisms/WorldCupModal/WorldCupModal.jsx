@@ -27,7 +27,7 @@ export function WorldCupModal({
 
                             <div className="w-100">
                                 <h2 className="modal-title bebas-neue-regular">
-                                    Participá del sorteo
+                                    ¡Participá por una cena para el Día del Amigo!
                                 </h2>
                             </div>
 
@@ -45,7 +45,7 @@ export function WorldCupModal({
                             </p>
 
                             <p className="text-muted tenor-sans-regular-options">
-                                Ingresá el código de 6 caracteres que recibiste con tu compra.
+                                Ingresá el código de 6 caracteres y pronosticá el resultado de la final del Mundial. Si acertás, participás por el sorteo de una cena
                             </p>
 
                             <div className="px-5">
@@ -56,7 +56,11 @@ export function WorldCupModal({
                                     placeholder="ABC123"
                                     value={code}
                                     onChange={(e) =>
-                                        setCode(e.target.value.toUpperCase())
+                                        setCode(
+                                            e.target.value
+                                                .toUpperCase()
+                                                .replace(/[^A-Z0-9]/g, "")
+                                        )
                                     }
                                 />
                                 {message.text && (

@@ -17,11 +17,19 @@ export function FloatingMenu() {
     const [showModal, setShowModal] = useState(false);
     const navigate = useNavigate();
     const [code, setCode] = useState("");
+    const [loading, setLoading] = useState(false);
+    const [message, setMessage] = useState({
+        text: "",
+        type: "", // success | danger | warning | info
+        visible: false
+    });
 
     const handleContinue = handlePredictionCode(
         code,
         navigate,
-        validatePredictionCode
+        validatePredictionCode,
+        setLoading,
+        setMessage
     );
 
     const active = true;
@@ -77,6 +85,8 @@ export function FloatingMenu() {
                 setCode={setCode}
                 onClose={() => setShowModal(false)}
                 onContinue={handleContinue}
+                loading={loading}
+                message={message}
             />
         </div>
 

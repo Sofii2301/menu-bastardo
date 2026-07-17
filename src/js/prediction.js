@@ -36,22 +36,36 @@ export function validatePrediction(form){
 export function handlePredictionCode(
     code,
     navigate,
-    validateCode
+    validateCode,
+    setLoading,
+    setMessage
 ) {
 
     return async () => {
 
         if (code.trim().length !== 6) {
-            alert("Ingresá un código válido.");
+            setMessage({
+                text: "Ingresá un código válido.",
+                type: "danger"
+            });
             return;
         }
+
+        setLoading(true);
+        setMessage({
+            text: "",
+            type: ""
+        });
 
         try {
 
             const response = await validateCode(code);
 
             if (!response.ok) {
-                alert(response.message);
+                setMessage({
+                    text: response.message,
+                    type: "danger"
+                });
                 return;
             }
 
@@ -60,9 +74,12 @@ export function handlePredictionCode(
             });
 
         } catch {
-
-            alert("No se pudo validar el código.");
-
+            setMessage({
+                text: "No se pudo validar el código.",
+                type: "danger"
+            });
+        } finally {
+            setLoading(false);
         }
 
     };

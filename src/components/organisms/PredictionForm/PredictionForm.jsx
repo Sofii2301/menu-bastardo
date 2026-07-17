@@ -1,4 +1,3 @@
-import { useState } from "react";
 import arg from "../../../assets/arg.png";
 import esp from "../../../assets/esp.png";
 import "./predictionForm.css"
@@ -7,11 +6,17 @@ export function PredictionForm({
     code,
     form,
     onChange,
-    onSubmit
+    onSubmit,
+    loading,
+    message
 }) {
     return (
         <div className="card border-0 shadow rounded-4 p-4 tenor-sans-regular col-lg-8 col-md-12">
-
+            {message.text && (
+                <div className={`alert alert-${message.type} rounded-4`}>
+                    {message.text}
+                </div>
+            )}
             <h1 className="bebas-neue-regular text-center mb-2">
                 Participá por una cena
             </h1>
@@ -151,13 +156,22 @@ export function PredictionForm({
             </div>
 
             <button
-                type="button"
                 className="btn btn-dark w-100 mt-5"
                 onClick={onSubmit}
+                disabled={loading}
             >
-                Participar
+                {loading ? (
+                    <>
+                        <span
+                            className="spinner-border spinner-border-sm me-2"
+                            role="status"
+                        />
+                        Enviando...
+                    </>
+                ) : (
+                    "Participar"
+                )}
             </button>
-
         </div>
     );
 

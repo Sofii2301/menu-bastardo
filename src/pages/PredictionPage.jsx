@@ -8,6 +8,7 @@ import {
     validatePrediction
 } from "../js/prediction";
 import { submitPrediction } from "../services/predictionService";
+import { SuccessCard } from "../components/molecules/SuccessCard";
 
 export default function PredictionPage() {
 
@@ -15,6 +16,12 @@ export default function PredictionPage() {
     const { state } = useLocation();
 
     const [form, setForm] = useState(initialPrediction);
+    const [submitted, setSubmitted] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [message, setMessage] = useState({
+        text: "",
+        type: ""
+    });
 
     useEffect(() => {
         if (!state?.code) {
@@ -29,10 +36,18 @@ export default function PredictionPage() {
         const error = validatePrediction(form);
 
         if (error) {
-            alert(error);
+            setMessage({
+                text: error,
+                type: "danger"
+            });
             return;
         }
 
+        setLoading(true);
+        setMessage({
+            text: "",
+            type: ""
+        });
         try {
 
             const response = await submitPrediction({
@@ -41,25 +56,35 @@ export default function PredictionPage() {
             });
 
             if (!response.ok) {
-                alert(response.message);
+                setMessage({
+                    text: response.message,
+                    type: "danger"
+                });
+
+                return;
             } 
-            alert("¡Participación registrada con éxito!");
-            navigate("/");
-
+            setSubmitted(true);
         } catch {
-
-            alert("Error al enviar la participación.");
-
+            setMessage({
+                text: "Error al enviar la participación.",
+                type: "danger"
+            });
+        } finally {
+            setLoading(false);
         }
 
     };
-
+    if (submitted) {
+        return <SuccessCard onBack={() => navigate("/")} />;
+    }
     return (
         <PredictionTemplate
             code={state?.code}
             form={form}
             onChange={handleChange}
             onSubmit={handleSubmit}
+            loading={loading}
+            message={message}
         />
     );
 

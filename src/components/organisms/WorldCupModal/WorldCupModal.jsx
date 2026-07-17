@@ -1,4 +1,12 @@
-export function WorldCupModal({ show, onClose, onContinue, code, setCode }) {
+export function WorldCupModal({ 
+    show,
+    onClose,
+    onContinue,
+    code,
+    setCode,
+    loading,
+    message
+}) {
 
     if (!show) return null;
 
@@ -51,6 +59,11 @@ export function WorldCupModal({ show, onClose, onContinue, code, setCode }) {
                                         setCode(e.target.value.toUpperCase())
                                     }
                                 />
+                                {message.text && (
+                                    <div className={`alert alert-${message.type} rounded-4 mx-4`}>
+                                        {message.text}
+                                    </div>
+                                )}
                             </div>
                             
 
@@ -61,8 +74,19 @@ export function WorldCupModal({ show, onClose, onContinue, code, setCode }) {
                             <button
                                 className="btn btn-dark w-100"
                                 onClick={onContinue}
+                                disabled={loading}
                             >
-                                Continuar
+                                {loading ? (
+                                    <>
+                                        <span
+                                            className="spinner-border spinner-border-sm me-2"
+                                            role="status"
+                                        />
+                                        Validando...
+                                    </>
+                                ) : (
+                                    "Continuar"
+                                )}
                             </button>
 
                         </div>

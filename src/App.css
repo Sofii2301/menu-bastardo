@@ -7,6 +7,12 @@ body {
   color: #fefefe;
 }
 
+@media (hover: none) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
 body::before {
   content: "";
   position: fixed;

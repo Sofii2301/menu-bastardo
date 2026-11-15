@@ -8,12 +8,12 @@ export function MenuCard({ item }) {
             <div className="d-flex justify-content-between align-items-start card-heading gap-2">
                 {item.name && <h2 className="bebas-neue-regular">{item.name}</h2>}
                 {item.add && <div className='text-white small tenor-sans-regular text-uppercase'>{item.add}</div>}
-                {item.price && <PriceTag value={item.price} />}
+                {item.price != null && <PriceTag value={item.price} />}
             </div>
             {item.desc && (<TextLabel>{item.desc}</TextLabel>)}
-            {item.options?.map(option=>(
+            {item.options?.map((option, index)=>(
                 <OptionCard
-                    key={option.name}
+                    key={`${option.label}-${index}`}
                     option={option}
                     name={item.name}
                 />

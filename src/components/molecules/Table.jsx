@@ -25,9 +25,9 @@ export function Table({ item }) {
                             <th className="text-start bebas-neue-regular fs-5">
                                 {row.name}
                             </th>
-                            {row.prices.map(price => (
+                            {row.prices.map((price, index) => (
                                 <td
-                                    key={price}
+                                    key={index}
                                     className='tenor-sans-regular'
                                 >
                                     ${formatPrice(price)}

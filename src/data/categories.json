@@ -6,7 +6,11 @@
     {
         "id": 2,
         "category": "Hamburguesas",
-        "desc": "Medallones de carne de elaboración propia (150 gr c/u) y se sirven en pan de papa."
+        "desc": "Medallones de carne de elaboración propia (150 gr c/u) y se sirven en pan de papa. (Personalizá la tuya: elegí la cantidad de medallones que desees a cualquiera de las opciones.)"
+    },
+    {
+        "id": 24,
+        "category": "Hamburguesas nuevas"
     },
     {
         "id": 3,
@@ -24,7 +28,7 @@
     {
         "id": 5,
         "category": "Pastas caseras",
-        "desc": "Podes elegirlas con las siguientes salsas: Boloñesa clásica, salsa blanca, salsa rosa y salsa 4 quesos."
+        "desc": "Podes elegirlas con las siguientes salsas: Boloñesa clásica, salsa blanca, salsa rosa y salsa cuatro quesos."
     },
     {
         "id": 6,
@@ -62,7 +66,7 @@
     {
         "id": 13,
         "category": "Jugos",
-        "desc": "Jarra: $12.000"
+        "desc": ""
     },
     {
         "id": 14,

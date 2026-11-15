@@ -1,141 +1,203 @@
 [
-    {  
-        "id": 1, 
-        "name": "Bife de chorizo", 
-        "category": "Especiales", 
-        "price": 29900, 
-        "desc": "Nuestro emblemático bife de chorizo, cocido a la perfección, jugoso y tierno. Acompañado de cremoso puré de papas." 
+    {
+        "id": 2,
+        "name": "Bondiola de cerdo",
+        "category": "Especiales",
+        "price": 27000,
+        "desc": "Tierna bondiola de cerdo cocinada a baja temperatura, que se deshace en el paladar. Acompañada de una sedosa cabutia asada, la intensidad del queso azul. Una sinfonía de sabores que la hacen irresistible."
     },
-    { 
-        "id": 2, 
-        "name": "Bondiola de cerdo", 
-        "category": "Especiales", 
-        "price": 25000, 
-        "desc": "Tierna bondiola de cerdo cocinada a baja temperatura, que se deshace en el paladar. Acompañada de una sedosa cabutia asada, la intensidad del queso azul y el toque crujiente de nueces tostadas. Una sinfonía de sabores que la hacen irresistible." 
+    {
+        "id": 3,
+        "name": "Pollo con crema de verdeo",
+        "category": "Especiales",
+        "price": 25500,
+        "desc": "Pechuga de pollo de campo, dorada y bañada en nuestra exquisita crema de verdeo, servida con papas rústicas crujientes. Un deleite para el paladar."
     },
-    { 
-        "id": 3, 
-        "name": "Pollo con crema de verdeo", 
-        "category": "Especiales", 
-        "price": 23500, 
-        "desc": "Pechuga de pollo de campo, dorada y bañada en nuestra exquisita crema de verdeo, servida con papas rústicas crujientes. Un deleite para el paladar." 
+    {
+        "id": 4,
+        "name": "Risotto de calabaza y brie",
+        "category": "Especiales",
+        "price": 24000,
+        "desc": "Arroz en su punto justo, meloso y reconfortante. La dulzura natural de la calabaza asada se funde con la cremosidad del queso brie francés, logrando un equilibrio perfecto y sofisticado."
     },
-    {  
-        "id": 4, 
-        "name": "Risotto de calabaza y brie", 
-        "category": "Especiales", 
-        "price": 22000, 
-        "desc": "Arroz en su punto justo, meloso y reconfortante. La dulzura natural de la calabaza asada se funde con la cremosidad del queso brie francés, logrando un equilibrio perfecto y sofisticado." 
+    {
+        "id": 5,
+        "name": "Pesca del día",
+        "category": "Especiales",
+        "price": 21900,
+        "desc": "La Pesca del Día con Verduras Asadas Cada día, el mar nos trae una sorpresa. Nuestra pesca fresca del día, suavemente grillada y acompañada de una selección de verduras de estación asadas, resaltando sus sabores naturales."
     },
-    {  
-        "id": 5, 
-        "name": "Pesca del día", 
-        "category": "Especiales", 
-        "price": 19900, 
-        "desc": "La Pesca del Día con Verduras Asadas Cada día, el mar nos trae una sorpresa. Nuestra pesca fresca del día, suavemente grillada y acompañada de una selección de verduras de estación asadas, resaltando sus sabores naturales." 
-    },
-    {  
-        "id": 6, 
+    {
+        "id": 6,
         "category": "Pizzas",
-        "options":[
+        "options": [
             {
-                "label":"Muzzarella",
-                "price":17500
+                "label": "Muzzarella",
+                "price": 17500
             },
             {
-                "label":"Fugazzeta",
-                "price":18000
+                "label": "Fugazzeta",
+                "price": 19500
             },
             {
-                "label":"Napolitana",
-                "price":19500
+                "label": "Napolitana",
+                "price": 21000
             },
             {
-                "label":"Palmitos",
-                "price":19500
+                "label": "Palmitos",
+                "price": 21000
             },
             {
-                "label":"Jamón y morrones",
-                "price":18500
+                "label": "Jamón y morrones",
+                "price": 20000
             },
             {
-                "label":"Panceta y huevo",
-                "price":20000
+                "label": "Panceta y huevo",
+                "price": 21500
             }
         ]
     },
-    {  
-        "id": 12, 
-        "name": "Sorrentinos de jamón y queso", 
-        "category": "Pastas caseras", 
-        "price": 19900, 
-        "desc": "8 unidades" 
+    {
+        "id": 12,
+        "name": "Sorrentinos de jamón y queso",
+        "category": "Pastas caseras",
+        "price": 19900,
+        "desc": "8 unidades"
     },
-    {  
-        "id": 13, 
-        "name": "Ravioles de espinaca y ricota", 
-        "category": "Pastas caseras", 
+    {
+        "id": 13,
+        "name": "Ravioles de espinaca y ricota",
+        "category": "Pastas caseras",
         "price": 17900
     },
-    {  
-        "id": 14, 
-        "name": "Tallarines cinta al huevo", 
-        "category": "Pastas caseras", 
+    {
+        "id": 14,
+        "name": "Tallarines cinta al huevo",
+        "category": "Pastas caseras",
         "price": 15900
     },
-    {  
-        "id": 15, 
-        "name": "Hamburguesa 'Cheesy King'", 
-        "category": "Hamburguesas", 
-        "price": 13500, 
-        "desc": "No puede faltar el clásico medallón de carne y queso cheddar." 
+    {
+        "id": 15,
+        "name": "Hamburguesa 'Cheesy King'",
+        "category": "Hamburguesas",
+        "price": 15000,
+        "desc": "No puede faltar el clásico medallón de carne y queso cheddar."
     },
-    {  
-        "id": 16, 
-        "name": "Hamburguesa clásica", 
-        "category": "Hamburguesas", 
-        "price": 15500, 
-        "desc": "La receta esencial. Medallón de carne, lechuga, tomate fresco, lonchas de jamón y mozzarella." 
+    {
+        "id": 16,
+        "name": "Hamburguesa clásica",
+        "category": "Hamburguesas",
+        "price": 17000,
+        "desc": "La receta esencial. Medallón de carne, lechuga, tomate fresco, lonchas de jamón y mozzarella."
     },
-    {  
-        "id": 17, 
-        "name": "Hamburguesa simple (jamón y queso)", 
-        "category": "Hamburguesas", 
-        "price": 14500, 
-        "desc": "Una especialidad que no falla. Medallón de carne, lechuga, tomate fresco, lonchas de jamón y mozzarella." 
+    {
+        "id": 17,
+        "name": "Hamburguesa simple (jamón y queso)",
+        "category": "Hamburguesas",
+        "price": 16000,
+        "desc": "Una especialidad que no falla. Medallón de carne, lonchas de jamón y mozzarella."
     },
-    {  
-        "id": 18, 
-        "name": "Hamburguesa vegetariana", 
-        "category": "Hamburguesas", 
-        "price": 15500, 
-        "desc": "Medallón veggie a base de legumbres y cereales. Servida con palta (aguacate), hojas de espinaca, tomate y un toque de mayonesa vegana (o de la casa)." 
+    {
+        "id": 18,
+        "name": "Hamburguesa vegetariana",
+        "category": "Hamburguesas",
+        "price": 17000,
+        "desc": "Medallón veggie a base de legumbres y cereales. Servida con palta (aguacate), hojas de espinaca, tomate y un toque de mayonesa vegana (o de la casa)."
     },
-    {  
-        "id": 19, 
-        "name": "Hamburguesa bastarda", 
-        "category": "Hamburguesas", 
-        "price": 19500, 
-        "desc": "Una combinación intensa. Medallón de carne, hojas frescas de rúcula, queso azul cremoso y dulzona cebolla caramelizada." 
+    {
+        "id": 19,
+        "name": "Hamburguesa bastarda",
+        "category": "Hamburguesas",
+        "price": 21000,
+        "desc": "Una combinación intensa. Medallón de carne, hojas frescas de rúcula, queso azul cremoso y dulzona cebolla caramelizada."
+    },
+    {
+        "id": 147,
+        "name": "Hamburguesa Argenta",
+        "category": "Hamburguesas nuevas",
+        "price": 20000,
+        "desc": "Bien nuestra, bien cargada de sabor. Medallón de carne, mozzarella, morrones asados, cebolla morada y salsa criolla."
+    },
+    {
+        "id": 148,
+        "name": "Hamburguesa Onion",
+        "category": "Hamburguesas nuevas",
+        "price": 21000,
+        "desc": "Para los que creen que nunca es demasiada cebolla. Medallón de carne, cheddar, panceta, cebolla crispy y cebolla caramelizada."
+    },
+    {
+        "id": 149,
+        "name": "Hamburguesa Bomba",
+        "category": "Hamburguesas nuevas",
+        "price": 22000,
+        "desc": "El nombre no es casualidad. Medallón de carne, tres bastones de mozzarella, cheddar, salsa barbacoa y alioli."
+    },
+    {
+        "id": 150,
+        "name": "Hamburguesa Porks",
+        "category": "Hamburguesas nuevas",
+        "price": 23000,
+        "desc": "Una burger no alcanza, le ponemos bondiola. Medallón de carne, bondiola desmenuzada, cebolla caramelizada, cheddar, salsa barbacoa y rúcula."
+    },
+    {
+        "id": 151,
+        "name": "Hamburguesa 'La cumpleañito'",
+        "category": "Hamburguesas nuevas",
+        "price": 22000,
+        "desc": "Una fiesta adentro de un pan. Medallón de carne, cheddar, bastones de pollo, salsa barbacoa, mostaza y papas fritas adentro."
+    },
+    {
+        "id": 152,
+        "name": "Hamburguesa Cheese Fest",
+        "category": "Hamburguesas nuevas",
+        "price": 20000,
+        "desc": "Para los fanáticos del queso, sin límites. Medallón de carne, cheddar, queso azul, mozzarella y queso Tybo."
+    },
+    {
+        "id": 153,
+        "name": "Hamburguesa American",
+        "category": "Hamburguesas nuevas",
+        "price": 20000,
+        "desc": "Una clásica bien americana. Medallón de carne, cheddar fundido, panceta crocante, huevo y un toque de alioli."
+    },
+    {
+        "id": 154,
+        "name": "Hamburguesa Pesto",
+        "category": "Hamburguesas nuevas",
+        "price": 20000,
+        "desc": "Fresca, intensa y con mucho sabor. Medallón de carne, cheddar, salsa de pesto y alioli."
+    },
+    {
+        "id": 155,
+        "name": "Hamburguesa Mexican",
+        "category": "Hamburguesas nuevas",
+        "price": 21000,
+        "desc": "Un toque mexicano para una burger bien bastarda. Medallón de carne, guacamole, alioli, tomate y cebolla morada."
+    },
+    {
+        "id": 156,
+        "name": "Hamburguesa Sweet Bacon",
+        "category": "Hamburguesas nuevas",
+        "price": 21000,
+        "desc": "Dulce, ahumada y completamente bastarda. Medallón de carne, cheddar, mermelada de bacon y salsa de ajo asado."
     },
     {
         "id": 20,
         "name": "Milanesa de carne",
         "category": "Milanesas al plato",
-        "price": 17000, 
-
-        "options":[
+        "price": 19500,
+        "options": [
             {
-                "label":"A la napolitana",
-                "price":18000
+                "label": "A la napolitana",
+                "price": 20500
             },
             {
-                "label":"Napolitana",
-                "price":18000
+                "label": "A la fugazzeta",
+                "price": 20500
             },
             {
-                "label":"Fugazzetta",
-                "price":19000
+                "label": "Al roquefort",
+                "price": 21500
             }
         ]
     },
@@ -143,164 +205,163 @@
         "id": 21,
         "name": "Milanesa de pollo",
         "category": "Milanesas al plato",
-        "price": 16000, 
-
-        "options":[
+        "price": 17000,
+        "options": [
             {
-                "label":"A la napolitana",
-                "price":17000
+                "label": "A la napolitana",
+                "price": 18000
             },
             {
-                "label":"Napolitana",
-                "price":17000
+                "label": "A la fugazzeta",
+                "price": 18000
             },
             {
-                "label":"Fugazzetta",
-                "price":18000
+                "label": "Al roquefort",
+                "price": 19000
             }
         ]
     },
-    {  
-        "id": 22, 
-        "name": "Sándwich de Bondiola", 
-        "category": "Sándwiches en Pan Ciabatta", 
-        "price": 21000, 
-        "desc": "Tierna bondiola de cerdo braseada o cocida a baja temperatura, desmechada y jugosa, acompañada de queso gratinado y finas hojas de rúcula, ideal para una comida contundente." 
+    {
+        "id": 22,
+        "name": "Sándwich de Bondiola",
+        "category": "Sándwiches en Pan Ciabatta",
+        "price": 22000,
+        "desc": "Tierna bondiola de cerdo braseada o cocida a baja temperatura, desmechada y jugosa, acompañada con salsa de morrones, servido en pan crocante, ideal para quienes buscan un sándwich bien sabroso y contundente."
     },
-    {  
-        "id": 23, 
-        "name": "Sándwich de Lomo", 
-        "category": "Sándwiches en Pan Ciabatta", 
-        "price": 23000, 
-        "desc": "Finas láminas de lomo de ternera (o bife de lomo) a la plancha, complementadas con queso fundido, lechuga y tomate." 
+    {
+        "id": 23,
+        "name": "Sándwich de Lomo",
+        "category": "Sándwiches en Pan Ciabatta",
+        "price": 24000,
+        "desc": "Finas láminas de lomo de ternera (o bife de lomo) a la plancha, complementadas con queso fundido, lechuga y tomate."
     },
-    {  
-        "id": 24, 
-        "name": "Sándwich Vegetariano", 
-        "category": "Sándwiches en Pan Ciabatta", 
-        "price": 18500, 
-        "desc": "Una opción fresca y sabrosa. Vegetales de estación asados (pimientos, berenjenas y calabacín) con un toque de queso y untados con nuestra mayonesa casera de perejil." 
+    {
+        "id": 24,
+        "name": "Sándwich Vegetariano",
+        "category": "Sándwiches en Pan Ciabatta",
+        "price": 18500,
+        "desc": "Una opción fresca y sabrosa. Vegetales de estación asados (pimientos, berenjenas y calabacín) con un toque de queso y untados con nuestra mayonesa casera de perejil."
     },
-    {  
-        "id": 25, 
-        "name": "Clásicas", 
-        "category": "Papas", 
-        "price": 12500, 
-        "desc": "Nuestras papas fritas, cortadas al momento y crocantes por fuera, servidas con una pizca de sal marina. El acompañamiento perfecto." 
+    {
+        "id": 25,
+        "name": "Clásicas",
+        "category": "Papas",
+        "price": 12500,
+        "desc": "Nuestras papas fritas, cortadas al momento y crocantes por fuera, servidas con una pizca de sal marina. El acompañamiento perfecto."
     },
-    {  
-        "id": 26, 
-        "name": "Papas Cheddar, Panceta y Verdeo", 
-        "category": "Papas", 
-        "price": 17500, 
-        "desc": "Papas fritas bañadas en una cremosa salsa de queso cheddar fundido, cubiertas con crujientes trozos de panceta (bacon) y fresco ciboulette (verdeo)." 
+    {
+        "id": 26,
+        "name": "Papas Cheddar, Panceta y Verdeo",
+        "category": "Papas",
+        "price": 17500,
+        "desc": "Papas fritas bañadas en una cremosa salsa de queso cheddar fundido, cubiertas con crujientes trozos de panceta (bacon) y fresco ciboulette (verdeo)."
     },
-    {  
-        "id": 27, 
-        "name": "Salchipapas", 
-        "category": "Papas", 
-        "price": 16000, 
-        "desc": "El clásico de tapeo. Papas fritas crujientes mezcladas con salchichas tipo viena, aderezadas con kétchup y mostaza." 
+    {
+        "id": 27,
+        "name": "Salchipapas",
+        "category": "Papas",
+        "price": 16000,
+        "desc": "El clásico de tapeo. Papas fritas crujientes mezcladas con salchichas tipo viena, aderezadas con barbacoa y mostaza."
     },
-    {  
-        "id": 28, 
-        "name": "Papas de Porks Y Barbacoa", 
-        "category": "Papas", 
-        "price": 17500, 
-        "desc": "Papas fritas cubiertas con tierno cerdo desmechado (pulled pork) cocido a baja temperatura, y bañadas en nuestra salsa barbacoa ahumada." 
+    {
+        "id": 28,
+        "name": "Papas de Porks Y Barbacoa",
+        "category": "Papas",
+        "price": 17500,
+        "desc": "Papas fritas cubiertas con tierno cerdo desmechado (pulled pork) cocido a baja temperatura, y bañadas en nuestra salsa barbacoa ahumada."
     },
-    {  
-        "id": 29, 
-        "name": "Bastones de Muzzarella", 
-        "category": "Tapeos", 
-        "price": 18500, 
-        "desc": "10 bastoncitos de mozzarella fritos hechos en la casa con salsa barbacoa." 
+    {
+        "id": 29,
+        "name": "Bastones de Muzzarella",
+        "category": "Tapeos",
+        "price": 18500,
+        "desc": "10 bastoncitos de mozzarella fritos hechos en la casa con salsa barbacoa."
     },
-    {  
-        "id": 30, 
-        "name": "Bastones de pollo", 
-        "category": "Tapeos", 
-        "price": 18500, 
-        "desc": "10 bastoncitos de pollo fritos hechos en la casa con salsa barbacoa." 
+    {
+        "id": 30,
+        "name": "Bastones de pollo",
+        "category": "Tapeos",
+        "price": 18500,
+        "desc": "10 bastoncitos de pollo fritos hechos en la casa con salsa barbacoa."
     },
-    {  
-        "id": 31, 
-        "name": "Aros de cebolla", 
-        "category": "Tapeos", 
-        "price": 14000, 
-        "desc": "Aros de cebolla cortados gruesos, cubiertos con un rebozado crujiente y fritos. Un clásico dulce y salado, servido con diferentes dips de salsas." 
+    {
+        "id": 31,
+        "name": "Aros de cebolla",
+        "category": "Tapeos",
+        "price": 15500,
+        "desc": "Aros de cebolla cortados gruesos, cubiertos con un rebozado crujiente y fritos. Un clásico dulce y salado, servido con diferentes dips de salsas."
     },
-    {  
-        "id": 32, 
-        "name": "Rabas", 
-        "category": "Tapeos", 
-        "price": 27000, 
-        "desc": "Anillos de calamar rebozados y fritos hasta un dorado perfecto. Ligeros y tiernos, servidos con rodajas de limón para exprimir." 
+    {
+        "id": 32,
+        "name": "Rabas",
+        "category": "Tapeos",
+        "price": 27000,
+        "desc": "Anillos de calamar rebozados y fritos hasta un dorado perfecto. Ligeros y tiernos, servidos con rodajas de limón para exprimir."
     },
-    {  
-        "id": 33, 
-        "name": "Ensalada Bastarda", 
-        "category": "Ensaladas", 
-        "price": 16500, 
-        "desc": "Lechuga, huevo, aceitunas y cherry" 
+    {
+        "id": 33,
+        "name": "Ensalada Bastarda",
+        "category": "Ensaladas",
+        "price": 16500,
+        "desc": "Lechuga, huevo, aceitunas y cherry"
     },
-    {  
-        "id": 34, 
-        "name": "Ensalada César", 
-        "category": "Ensaladas", 
-        "price": 15500, 
-        "desc": "De pollo" 
+    {
+        "id": 34,
+        "name": "Ensalada César",
+        "category": "Ensaladas",
+        "price": 15500,
+        "desc": "De pollo"
     },
-    {  
-        "id": 35, 
-        "name": "Rnsalada rúcula y parmesano", 
-        "category": "Ensaladas", 
-        "price": 16500, 
-        "desc": "(Veggie)" 
+    {
+        "id": 35,
+        "name": "Ensalada rúcula y parmesano",
+        "category": "Ensaladas",
+        "price": 16500,
+        "desc": "(Veggie)"
     },
-    {  
-        "id": 36, 
-        "name": "Ensalada de atún", 
-        "category": "Ensaladas", 
-        "price": 16500, 
-        "desc": "Cilantro, arroz y cherry" 
+    {
+        "id": 36,
+        "name": "Ensalada de atún",
+        "category": "Ensaladas",
+        "price": 16500,
+        "desc": "Cilantro, arroz y cherry"
     },
-    {  
-        "id": 37, 
-        "name": "Brownie", 
-        "category": "Postres", 
-        "add": "Adiconal helado $1.500",
-        "price": 9500, 
-        "desc": "Cuadrado de intenso sabor a chocolate, con una textura húmeda y densa por dentro y una capa superior ligeramente crujiente. Servido caliente, es un postre potente y delicioso." 
+    {
+        "id": 37,
+        "name": "Brownie",
+        "category": "Postres",
+        "add": "Adicional helado $1.500",
+        "price": 9500,
+        "desc": "Cuadrado de intenso sabor a chocolate, con una textura húmeda y densa por dentro y una capa superior ligeramente crujiente. Servido caliente, es un postre potente y delicioso."
     },
-    {  
-        "id": 38, 
-        "name": "Volcán de chocolate", 
-        "category": "Postres", 
-        "price": 13000, 
-        "desc": "Pequeño bizcocho individual de chocolate intenso, con un corazón líquido y caliente que se derrama al cortar. Ideal para los amantes del chocolate fundido." 
+    {
+        "id": 38,
+        "name": "Volcán de chocolate",
+        "category": "Postres",
+        "price": 13000,
+        "desc": "Pequeño bizcocho individual de chocolate intenso, con un corazón líquido y caliente que se derrama al cortar. Ideal para los amantes del chocolate fundido."
     },
-    {  
-        "id": 39, 
-        "name": "Flan Casero", 
-        "category": "Postres", 
-        "add": "Adiconal crema o dulce $1.500",
-        "price": 7000, 
-        "desc": "Postre clásico y tradicional. Una crema suave de huevo y leche cocida al baño María, con una textura lisa y gelatinosa, bañada en abundante caramelo líquido." 
+    {
+        "id": 39,
+        "name": "Flan Casero",
+        "category": "Postres",
+        "add": "Adicional crema o dulce $1.500",
+        "price": 7000,
+        "desc": "Postre clásico y tradicional. Una crema suave de huevo y leche cocida al baño María, con una textura lisa y gelatinosa, bañada en abundante caramelo líquido."
     },
-    {  
-        "id": 41, 
-        "name": "Cheescake", 
-        "category": "Postres", 
-        "price": 12500, 
-        "desc": "Postre cremoso y delicioso con una base crujiente de galletas y un relleno suave de queso crema, azúcar, huevos y mermelada de frutos rojos." 
+    {
+        "id": 41,
+        "name": "Cheescake",
+        "category": "Postres",
+        "price": 13000,
+        "desc": "Postre cremoso y delicioso con una base crujiente de galletas y un relleno suave de queso crema, azúcar, huevos y mermelada de frutos rojos."
     },
-    {  
-        "id": 42, 
-        "name": "Tiramisú", 
-        "category": "Postres", 
-        "price": 12500, 
-        "desc": "Postre frío italiano de suave crema de queso Mascarpone, yemas y azúcar, alternada con bizcochos de soletilla empapados en café espresso. Coronado con cacao puro en polvo." 
+    {
+        "id": 42,
+        "name": "Tiramisú",
+        "category": "Postres",
+        "price": 13000,
+        "desc": "Postre frío italiano de suave crema de queso Mascarpone, yemas y azúcar, alternada con bizcochos de soletilla empapados en café espresso. Coronado con cacao puro en polvo."
     },
     {
         "id": 43,
@@ -318,169 +379,211 @@
             }
         ]
     },
-    {  
-        "id": 45, 
-        "name": "Pepsi, Pepsi Black, Seven Up, Mirinda 500", 
-        "category": "Bebidas sin alcohol", 
-        "price": 4500 
+    {
+        "id": 45,
+        "name": "Pepsi, Pepsi Black, Seven Up, Mirinda 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4500
     },
-    {  
-        "id": 46, 
-        "name": "Lata Pepsi, Pepsi Black, Seven Up 354", 
-        "category": "Bebidas sin alcohol", 
-        "price": 4000 
+    {
+        "id": 46,
+        "name": "Lata Pepsi, Pepsi Black, Seven Up 354",
+        "category": "Bebidas sin alcohol",
+        "price": 4000
     },
-    {  
-        "id": 47, 
-        "name": "H2O sin gas, lima, manzana roja, citrus, pomelo rosado, limon 500", 
-        "category": "Bebidas sin alcohol", 
-        "price": 4000 
+    {
+        "id": 47,
+        "name": "H2O sin gas, lima, manzana roja, citrus, pomelo rosado, limon 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4500
     },
-    {  
-        "id": 48, 
-        "name": "Paso de los Toros tónica 500", 
-        "category": "Bebidas sin alcohol", 
-        "price": 4500 
+    {
+        "id": 48,
+        "name": "Paso de los Toros tónica 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4500
     },
-    {  
-        "id": 49, 
-        "name": "Agua sin gas AQA 500", 
-        "category": "Bebidas sin alcohol", 
-        "price": 3900 
+    {
+        "id": 49,
+        "name": "Agua sin gas AQA 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4000
     },
-    {  
-        "id": 50, 
-        "name": "Agua con gas AQA 500", 
-        "category": "Bebidas sin alcohol", 
-        "price": 3900 
+    {
+        "id": 50,
+        "name": "Agua con gas AQA 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4000
     },
-    {  
-        "id": 51, 
-        "name": "Corona 300", 
-        "category": "Cervezas", 
-        "price": 5500
+    {
+        "id": 157,
+        "name": "Coca-Cola, Sprite, Fanta, Sprite s/azúcar, Schweppes pomelo 500",
+        "category": "Bebidas sin alcohol",
+        "price": 5000
     },
-    {  
-        "id": 52, 
-        "name": "Corona sin alcohol", 
-        "category": "Cervezas", 
-        "price": 5500
+    {
+        "id": 158,
+        "name": "Aquarius by Cepita naranja, manzana, pomelo, pera, Aquarius limonada 500",
+        "category": "Bebidas sin alcohol",
+        "price": 5000
     },
-    {  
-        "id": 53, 
-        "name": "Corona 710", 
-        "category": "Cervezas", 
+    {
+        "id": 159,
+        "name": "Lata Coca-Cola, Fanta, Sprite, Schweppes pomelo zero, Coca-Cola zero",
+        "category": "Bebidas sin alcohol",
+        "price": 5000
+    },
+    {
+        "id": 160,
+        "name": "Coca-Cola, Sprite vidrio 350",
+        "category": "Bebidas sin alcohol",
+        "price": 5000
+    },
+    {
+        "id": 161,
+        "name": "Agua sin gas Bonaqua 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4000
+    },
+    {
+        "id": 162,
+        "name": "Agua con gas Bonaqua 500",
+        "category": "Bebidas sin alcohol",
+        "price": 4000
+    },
+    {
+        "id": 51,
+        "name": "Corona 330",
+        "category": "Cervezas",
+        "price": 6000
+    },
+    {
+        "id": 53,
+        "name": "Corona 710",
+        "category": "Cervezas",
         "price": 12000
     },
-    {  
-        "id": 54, 
-        "name": "Stella Litro", 
-        "category": "Cervezas", 
+    {
+        "id": 52,
+        "name": "Corona sin alcohol 330",
+        "category": "Cervezas",
+        "price": 6000
+    },
+    {
+        "id": 54,
+        "name": "Stella Litro",
+        "category": "Cervezas",
+        "price": 14000
+    },
+    {
+        "id": 55,
+        "name": "Patagonia 710",
+        "category": "Cervezas",
         "price": 13000
     },
-    {  
-        "id": 55, 
-        "name": "Patagonia 710", 
-        "category": "Cervezas", 
-        "price": 12000
-    },
-    {  
-        "id": 56, 
-        "name": "Blond", 
-        "category": "Cervezas tiradas", 
-        "price": 6000
-    },
-    {  
-        "id": 57, 
-        "name": "Golden", 
-        "category": "Cervezas tiradas", 
-        "price": 6000
-    },
-    {  
-        "id": 58, 
-        "name": "Scotish", 
-        "category": "Cervezas tiradas", 
-        "price": 6000
-    },
-    {  
-        "id": 59, 
-        "name": "IPA Session", 
-        "category": "Cervezas tiradas", 
+    {
+        "id": 56,
+        "name": "Blond",
+        "category": "Cervezas tiradas",
         "price": 7000
     },
-    {  
-        "id": 60, 
-        "name": "Fernet", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 57,
+        "name": "Golden",
+        "category": "Cervezas tiradas",
+        "price": 7000
+    },
+    {
+        "id": 58,
+        "name": "Scotish",
+        "category": "Cervezas tiradas",
+        "price": 7000
+    },
+    {
+        "id": 140,
+        "name": "Stella",
+        "category": "Cervezas tiradas",
+        "price": 6000
+    },
+    {
+        "id": 59,
+        "name": "IPA Session",
+        "category": "Cervezas tiradas",
+        "price": 8000
+    },
+    {
+        "id": 60,
+        "name": "Fernet",
+        "category": "Tragos clásicos",
         "price": 10000
     },
-    {  
-        "id": 61, 
-        "name": "Cuba libre", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 61,
+        "name": "Cuba libre",
+        "category": "Tragos clásicos",
         "price": 10000
     },
-    {  
-        "id": 62, 
-        "name": "Gancia", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 62,
+        "name": "Gancia",
+        "category": "Tragos clásicos",
         "price": 9500
     },
-    {  
-        "id": 63, 
-        "name": "Aperol", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 63,
+        "name": "Aperol",
+        "category": "Tragos clásicos",
         "price": 9500
     },
-    {  
-        "id": 64, 
-        "name": "Campari", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 64,
+        "name": "Campari",
+        "category": "Tragos clásicos",
         "price": 9000
     },
-    {  
-        "id": 65, 
-        "name": "Gin Tonic", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 65,
+        "name": "Gin Tonic",
+        "category": "Tragos clásicos",
         "price": 10000
     },
-    {  
-        "id": 66, 
-        "name": "Cynar Julep", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 66,
+        "name": "Cynar Julep",
+        "category": "Tragos clásicos",
         "price": 11000
     },
-    {  
-        "id": 67, 
-        "name": "Vermut", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 67,
+        "name": "Vermut",
+        "category": "Tragos clásicos",
         "price": 6500
     },
-    {  
-        "id": 68, 
-        "name": "Vino", 
-        "category": "Tragos clásicos", 
+    {
+        "id": 68,
+        "name": "Vino",
+        "category": "Tragos clásicos",
         "add": "Consultar variedad",
-        "options":[
+        "options": [
             {
-                "label":"Copa de vino blanco",
-                "price":6500
+                "label": "Copa de vino blanco",
+                "price": 6500
             },
             {
-                "label":"Copa de vino tinto",
-                "price":7500
+                "label": "Copa de vino tinto",
+                "price": 7500
             },
             {
-                "label":"Botella Santa Julia blanco dulce",
-                "price":20000
+                "label": "Botella Santa Julia blanco dulce",
+                "price": 20000
             },
             {
-                "label":"Botella Nicasia ",
-                "price":25000
+                "label": "Botella Nicasia ",
+                "price": 25000
             },
             {
-                "label":"Botella Trumpeter",
-                "price":29000
+                "label": "Botella Trumpeter",
+                "price": 29000
             }
         ]
     },
@@ -489,505 +592,504 @@
         "name": "Café",
         "category": "Café",
         "layout": "table",
-
         "columns": [
             "Chico",
             "Mediano",
             "Grande"
         ],
-
         "rows": [
-
             {
                 "name": "Expresso",
-                "prices": [3500,3800,4100]
+                "prices": [
+                    4000,
+                    4400,
+                    4800
+                ]
             },
-
             {
                 "name": "Cortado",
-                "prices": [4100,4400,4600]
+                "prices": [
+                    4200,
+                    4600,
+                    5000
+                ]
             },
-
             {
                 "name": "Lágrima",
-                "prices": [4100,4400,4600]
+                "prices": [
+                    4200,
+                    4600,
+                    5000
+                ]
             }
-
         ]
     },
-    {  
-        "id": 78, 
-        "name": "Macciato", 
-        "category": "Café", 
-        "price": 5300, 
-        "desc": "Expreso servido con una pequeña mancha de leche caliente o espumada. Equilibrio perfecto de sabor y cremosidad." 
+    {
+        "id": 78,
+        "name": "Macciato",
+        "category": "Café",
+        "price": 5600,
+        "desc": "Expreso servido con una pequeña mancha de leche caliente o espumada. Equilibrio perfecto de sabor y cremosidad."
     },
-    {  
-        "id": 79, 
-        "name": "Café con Leche", 
-        "category": "Café", 
-        "price": 5000, 
-        "desc": "Expreso combinado con una generosa cantidad de leche texturizada, ideal para desayunar o merendar." 
+    {
+        "id": 79,
+        "name": "Café con Leche",
+        "category": "Café",
+        "price": 5500,
+        "desc": "Expreso combinado con una generosa cantidad de leche texturizada, ideal para desayunar o merendar."
     },
-    {  
-        "id": 80, 
-        "name": "Flat White", 
-        "category": "Café", 
-        "price": 5600, 
-        "desc": "Expreso doble con leche texturizada al vapor, que logra una microespuma muy fina y aterciopelada. De sabor fuerte y suave textura." 
+    {
+        "id": 80,
+        "name": "Flat White",
+        "category": "Café",
+        "price": 5900,
+        "desc": "Expreso doble con leche texturizada al vapor, que logra una microespuma muy fina y aterciopelada. De sabor fuerte y suave textura."
     },
-    {  
-        "id": 81, 
-        "name": "Moca", 
-        "category": "Café", 
-        "price": 6600, 
-        "desc": "Expreso con leche, barra de chocolate y coronado con una capa de crema batida." 
+    {
+        "id": 81,
+        "name": "Moca",
+        "category": "Café",
+        "price": 6900,
+        "desc": "Expreso con leche, barra de chocolate y coronado con una capa de crema batida."
     },
-    {  
-        "id": 82, 
-        "name": "Submarino", 
-        "category": "Café", 
-        "price": 6300, 
-        "desc": "Barra de chocolate negro sumergida en leche bien caliente para que se disuelva al gusto." 
+    {
+        "id": 82,
+        "name": "Submarino",
+        "category": "Café",
+        "price": 7000,
+        "desc": "Barra de chocolate negro sumergida en leche bien caliente para que se disuelva al gusto."
     },
-    {  
-        "id": 83, 
-        "name": "Chocolatada", 
-        "category": "Café", 
-        "price": 5100, 
-        "desc": "Se puede disfrutar caliente (ideal para días fríos) o fría (batida con hielo, muy refrescante)." 
+    {
+        "id": 83,
+        "name": "Chocolatada",
+        "category": "Café",
+        "price": 6000,
+        "desc": "Se puede disfrutar caliente (ideal para días fríos) o fría (batida con hielo, muy refrescante)."
     },
-    {  
-        "id": 84, 
-        "name": "Cappuccino", 
-        "category": "Café", 
-        "price": 7600, 
-        "desc": "Expreso con leche texturizada, y un grueso sombrero de espuma, espolvoreado con cacao, canela y crema." 
+    {
+        "id": 84,
+        "name": "Cappuccino",
+        "category": "Café",
+        "price": 7900,
+        "desc": "Expreso con leche texturizada, y un grueso sombrero de espuma, espolvoreado con cacao, canela y crema."
     },
-    {  
-        "id": 85, 
-        "name": "Café Bastardo", 
-        "category": "Café", 
-        "price": 8600, 
-        "desc": "Fusión de expreso, chocolate, coco, leche y la dulzura de la leche condensada, coronado con crema." 
+    {
+        "id": 85,
+        "name": "Café Bastardo",
+        "category": "Café",
+        "price": 8900,
+        "desc": "Fusión de expreso, chocolate, coco, leche y la dulzura de la leche condensada, coronado con crema."
     },
-    {  
-        "id": 86, 
-        "name": "Nuteccino", 
-        "category": "Café", 
-        "price": 7900, 
-        "desc": "Expresso doble combinado con nutella en una base de leche cremosa, espolvoreado con cacao." 
+    {
+        "id": 86,
+        "name": "Nuteccino",
+        "category": "Café",
+        "price": 8200,
+        "desc": "Expresso doble combinado con nutella en una base de leche cremosa, espolvoreado con cacao."
     },
-    {  
-        "id": 87, 
-        "name": "Té", 
-        "category": "Café", 
-        "price": 3900, 
-        "desc": "Selección de té negro, verde o infusiones de hierbas (consultar variedades)." 
+    {
+        "id": 87,
+        "name": "Té",
+        "category": "Café",
+        "price": 4500,
+        "desc": "Selección de té negro, verde o infusiones de hierbas (consultar variedades)."
     },
-    {  
-        "id": 88, 
-        "name": "Affogato", 
-        "category": "Cafés Fríos", 
-        "price": 8300, 
-        "desc": "Una bola de cremoso helado de vainilla 'ahogada' con un shot de expreso caliente." 
+    {
+        "id": 88,
+        "name": "Affogato",
+        "category": "Cafés Fríos",
+        "price": 8600,
+        "desc": "Una bola de cremoso helado de vainilla 'ahogada' con un shot de expreso caliente."
     },
-    {  
-        "id": 89, 
-        "name": "Café Tonic", 
-        "category": "Cafés Fríos", 
-        "price": 5300, 
-        "desc": "Expreso frío y burbujeante agua tónica, servido con hielo y una rodaja de cítrico." 
+    {
+        "id": 89,
+        "name": "Café Tonic",
+        "category": "Cafés Fríos",
+        "price": 6000,
+        "desc": "Expreso frío y burbujeante agua tónica, servido con hielo y una rodaja de cítrico."
     },
-    {  
-        "id": 90, 
-        "name": "Cold Brew", 
-        "category": "Cafés Fríos", 
-        "price": 4800, 
-        "desc": "Café concentrado preparado por infusión lenta. Sabor suave, dulce y con muy baja acidez." 
+    {
+        "id": 90,
+        "name": "Cold Brew",
+        "category": "Cafés Fríos",
+        "price": 5500,
+        "desc": "Café concentrado preparado por infusión lenta. Sabor suave, dulce y con muy baja acidez."
     },
-    {  
-        "id": 91, 
-        "name": "Eliot Ness", 
-        "category": "Cafés Fríos", 
-        "price": 6000, 
-        "desc": "Expreso, hielo y leche condensada, licuado hasta obtener una textura suave y coronado con crema batida." 
+    {
+        "id": 91,
+        "name": "Eliot Ness",
+        "category": "Cafés Fríos",
+        "price": 6500,
+        "desc": "Expreso, hielo y leche condensada, licuado hasta obtener una textura suave y coronado con crema batida."
     },
-    {  
-        "id": 92, 
-        "name": "Milkshake de Oreo", 
-        "category": "Cafés Fríos", 
-        "price": 8000, 
-        "desc": "Licuado a base de café, leche y galletas Oreo, coronado con crema y coulis de chocolate." 
+    {
+        "id": 92,
+        "name": "Milkshake de Oreo",
+        "category": "Cafés Fríos",
+        "price": 8500,
+        "desc": "Licuado a base de café, leche y galletas Oreo, coronado con crema y coulis de chocolate."
     },
-    {  
-        "id": 93, 
-        "name": "Milkshake de Banana Split", 
-        "category": "Cafés Fríos", 
-        "price": 8000, 
-        "desc": "Batido espeso de helado, leche y banana, con dulce de leche." 
+    {
+        "id": 93,
+        "name": "Milkshake de Banana Split",
+        "category": "Cafés Fríos",
+        "price": 8500,
+        "desc": "Batido espeso de helado, leche y banana, con dulce de leche."
     },
-    {  
-        "id": 94, 
-        "name": "Frappé Bastardo", 
-        "category": "Cafés Fríos", 
-        "price": 7800, 
-        "desc": "Café, hielo, licor Baileys, leche condensada y un toque de crema." 
+    {
+        "id": 94,
+        "name": "Frappé Bastardo",
+        "category": "Cafés Fríos",
+        "price": 8500,
+        "desc": "Café, hielo, licor Baileys, leche condensada y un toque de crema."
     },
-    {  
-        "id": 95, 
-        "name": "Limonada Clásica", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Refrescante mezcla de limón, menta fresca y un toque picante de jengibre. Servida con almíbar y mucho hielo." 
+    {
+        "id": 95,
+        "name": "Limonada Clásica",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Refrescante mezcla de limón, menta fresca y un toque picante de jengibre. Servida con almíbar y mucho hielo."
     },
-    {  
-        "id": 96, 
-        "name": "Limonada Frutos Rojos", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Infusionada con una mezcla de frutillas, moras y arándanos. Dulce, ácida y vibrante." 
+    {
+        "id": 96,
+        "name": "Limonada Frutos Rojos",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Infusionada con una mezcla de frutillas, moras y arándanos. Dulce, ácida y vibrante."
     },
-    {  
-        "id": 97, 
-        "name": "Pomelada", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Zumo de pomelo, agua, menta y un punto de almíbar. Amarga y muy refrescante." 
+    {
+        "id": 97,
+        "name": "Pomelada",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Zumo de pomelo, agua, menta y un punto de almíbar. Amarga y muy refrescante."
     },
-    {  
-        "id": 98, 
-        "name": "Exprimido de Naranja", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Puro jugo de naranjas recién exprimidas, sin aditivos." 
+    {
+        "id": 98,
+        "name": "Exprimido de Naranja",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Puro jugo de naranjas recién exprimidas, sin aditivos."
     },
-    {  
-        "id": 99, 
-        "name": "Naranja y Maracuyá", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Exprimido de naranja mezclado con la pulpa agridulce y aromática del maracuyá." 
+    {
+        "id": 99,
+        "name": "Naranja y Maracuyá",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Exprimido de naranja mezclado con la pulpa agridulce y aromática del maracuyá."
     },
-    {  
-        "id": 100, 
-        "name": "Naranja y Mango", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Exprimido de naranja con el dulzor intenso y cremoso del mango." 
+    {
+        "id": 100,
+        "name": "Naranja y Mango",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Exprimido de naranja con el dulzor intenso y cremoso del mango."
     },
-    {  
-        "id": 101, 
-        "name": "Naranjada", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Jugo de naranja aligerado con soda, con hielo, limón, menta y almibar." 
+    {
+        "id": 101,
+        "name": "Naranjada",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Jugo de naranja aligerado con soda, con hielo, limón, menta y almibar."
     },
-    {  
-        "id": 102, 
-        "name": "Licuado", 
-        "category": "Jugos", 
-        "price": 7900, 
-        "desc": "Licuado de banana / frutilla / multifruta." 
+    {
+        "id": 102,
+        "name": "Licuado",
+        "category": "Jugos",
+        "price": 7900,
+        "desc": "Licuado de banana / frutilla / multifruta."
     },
-    {  
-        "id": 103, 
-        "name": "Detox Rojo", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Zanahoria, frutilla y naranja. Bebida de alto valor nutritivo y antioxidante." 
+    {
+        "id": 103,
+        "name": "Detox Rojo",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Zanahoria, frutilla y naranja. Bebida de alto valor nutritivo y antioxidante."
     },
-    {  
-        "id": 104, 
-        "name": "Detox Verde", 
-        "category": "Jugos", 
-        "price": 6900, 
-        "desc": "Manzana verde, ananá (piña) y espinaca. Refrescante, depurativo y lleno de vitaminas." 
+    {
+        "id": 104,
+        "name": "Detox Verde",
+        "category": "Jugos",
+        "price": 7500,
+        "desc": "Manzana verde, ananá (piña) y espinaca. Refrescante, depurativo y lleno de vitaminas."
     },
-    {  
-        "id": 105, 
-        "name": "Lemon Pie", 
-        "category": "Tortas", 
-        "price": 12500, 
-        "desc": "Tarta clásica con base crujiente, rellena de una intensa y refrescante crema ácida de limón, cubierta con un esponjoso y dulce merengue tostado." 
+    {
+        "id": 105,
+        "name": "Lemon Pie",
+        "category": "Tortas",
+        "price": 13000,
+        "desc": "Tarta clásica con base crujiente, rellena de una intensa y refrescante crema ácida de limón, cubierta con un esponjoso y dulce merengue tostado."
     },
-    {  
-        "id": 106, 
-        "name": "Tarta de Frutilla", 
-        "category": "Tortas", 
-        "price": 12500, 
-        "desc": "Postre fresco y ligero con base crujiente de masa quebrada, un relleno suave de crema pastelera o diplomática, y coronado con abundantes frutillas frescas y brillantes." 
+    {
+        "id": 106,
+        "name": "Tarta de Frutilla",
+        "category": "Tortas",
+        "price": 13000,
+        "desc": "Postre fresco y ligero con base crujiente de masa quebrada, un relleno suave de dulce de leche, y coronado con abundantes frutillas frescas y brillantes."
     },
-    {  
-        "id": 107, 
-        "name": "Torta Matilda", 
-        "category": "Tortas", 
-        "price": 14500, 
-        "desc": "Torta de chocolate intensa, húmeda y esponjosa, con varias capas de bizcochuelo." 
+    {
+        "id": 107,
+        "name": "Torta Matilda",
+        "category": "Tortas",
+        "price": 15000,
+        "desc": "Torta de chocolate intensa, húmeda y esponjosa, con varias capas de bizcochuelo."
     },
-    {  
-        "id": 108, 
-        "name": "Chocotorta", 
-        "category": "Tortas", 
-        "price": 12500, 
-        "desc": "Postre frío argentino, sin cocción, hecho a base de capas de galletas de chocolate (Chocolinas) humedecidas en café o leche chocolatada." 
+    {
+        "id": 108,
+        "name": "Chocotorta",
+        "category": "Tortas",
+        "price": 13000,
+        "desc": "Postre frío argentino, sin cocción, hecho a base de capas de galletas de chocolate (Chocolinas) humedecidas en café o leche chocolatada."
     },
-    {  
-        "id": 109, 
-        "name": "Carrot Cake", 
-        "category": "Tortas", 
-        "price": 14500, 
-        "desc": "Bizcocho especiado, increíblemente húmedo y tierno, que combina zanahoria rallada, nueces, y especias como canela." 
+    {
+        "id": 109,
+        "name": "Carrot Cake",
+        "category": "Tortas",
+        "price": 15000,
+        "desc": "Bizcocho especiado, increíblemente húmedo y tierno, que combina zanahoria rallada, nueces, y especias como canela."
     },
-    {  
-        "id": 110, 
-        "name": "Cookie de Nutella", 
-        "category": "Cookies", 
-        "price": 8500, 
-        "desc": "Galleta suave y mantecosa con un corazón fundido de Nutella (crema de avellanas y chocolate) y chips de chocolate negro por encima, irresistiblemente dulce." 
+    {
+        "id": 110,
+        "name": "Cookie de Nutella",
+        "category": "Cookies",
+        "price": 10500,
+        "desc": "Galleta suave y mantecosa con un corazón fundido de Nutella (crema de avellanas y chocolate) y chips de chocolate negro por encima, irresistiblemente dulce."
     },
-    {  
-        "id": 111, 
-        "name": "Cookie Ferrero Rocher", 
-        "category": "Cookies", 
-        "price": 8500, 
-        "desc": "Galleta densa y chocolatosa, repleta de tres tipos de chocolate: trozos de chocolate blanco, con leche y amargo." 
+    {
+        "id": 111,
+        "name": "Cookie Ferrero Rocher",
+        "category": "Cookies",
+        "price": 10500,
+        "desc": "Galleta suave y mantecosa con trozos de chocolate y avellanas tostadas, rellena con una crema de chocolate y avellana estilo Ferrero. Con un centro fundido y textura irresistible, es pura tentación en cada mordida."
     },
-    {  
-        "id": 112, 
-        "name": "Cookie de Pistacho", 
-        "category": "Cookies", 
-        "price": 8500, 
-        "desc": "Galleta suave y mantecosa, con trozos de pistachos tostados y de chocolate blanco, rellena con más pistacho, un sabor delicado y ligeramente salado que equilibra su dulzura." 
+    {
+        "id": 112,
+        "name": "Cookie de Pistacho",
+        "category": "Cookies",
+        "price": 9500,
+        "desc": "Galleta suave y mantecosa, con trozos de pistachos tostados y de chocolate blanco, rellena con más pistacho, un sabor delicado y ligeramente salado que equilibra su dulzura."
     },
-    {  
-        "id": 113, 
-        "name": "Cookie Red Velvet", 
-        "category": "Cookies", 
-        "price": 8500, 
-        "desc": "Galleta de textura tierna y color rojo intenso, con un ligero sabor a cacao y trozos de cremoso chocolate blanco." 
+    {
+        "id": 113,
+        "name": "Cookie Red Velvet",
+        "category": "Cookies",
+        "price": 9500,
+        "desc": "Galleta de textura tierna y color rojo intenso, rellena con cream cheese y trozos de cremoso chocolate blanco por encima."
     },
-    {  
-        "id": 114, 
-        "name": "Tarta de lima y pistacho", 
-        "category": "Tortas", 
-        "price": 13500, 
-        "desc": "Bizcocho húmedo y aromático, con el frescor vibrante de la lima que equilibra la suavidad del pistacho tostado. Coronada con una crema delicada y notas cítricas que realzan su sabor, es un postre fresco, elegante y perfectamente balanceado entre dulzor y acidez." 
+    {
+        "id": 114,
+        "name": "Tarta de lima y pistacho",
+        "category": "Tortas",
+        "price": 14000,
+        "desc": "Bizcocho húmedo y aromático, con el frescor vibrante de la lima que equilibra la suavidad del pistacho tostado. Coronada con una crema delicada y notas cítricas que realzan su sabor, es un postre fresco, elegante y perfectamente balanceado entre dulzor y acidez."
     },
-    {  
-        "id": 115, 
-        "name": "Alfajorcito de Maizena", 
-        "category": "Cookies", 
-        "price": 4000, 
-        "desc": "El clásico argentino. Dos galletitas suaves y delicadas, hechas a base de fécula de maíz (maicena), unidas por una generosa capa de dulce de leche cremoso, y con los bordes rebozados en coco rallado." 
+    {
+        "id": 115,
+        "name": "Alfajorcito de Maicena",
+        "category": "Cookies",
+        "price": 5000,
+        "desc": "El clásico argentino. Dos galletitas suaves y delicadas, hechas a base de fécula de maíz (maicena), unidas por una generosa capa de dulce de leche cremoso, y con los bordes rebozados en coco rallado."
     },
-    {  
-        "id": 116, 
-        "name": "Tostón Bastardo", 
-        "category": "Brunch", 
-        "price": 12500, 
-        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con abundante palta cremosa condimentada, coronado con un cremoso huevo revuelto y el toque irresistible de la panceta ahumada dorada y crocante. Energía pura." 
-    },
-    {  
-        "id": 117, 
-        "name": "Tostón Americano", 
-        "category": "Brunch", 
-        "price": 11500, 
-        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con queso crema, un huevo y el toque irresistible de la panceta ahumada dorada y crocante con cebollita de verdeo." 
-    },
-    {  
-        "id": 118, 
-        "name": "Tostón Avocado (VEGGIE)", 
-        "category": "Brunch", 
-        "price": 12500, 
-        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con palta cremosa condimentada, un huevo en su punto justo, cebolla morada fresca y tomates cherry, logrando un equilibrio fresco, suave y lleno de sabor." 
-    },
-    {  
-        "id": 119, 
-        "name": "Tostado Clásico", 
-        "category": "Brunch", 
-        "price": 11000, 
-        "desc": "Sándwich caliente de jamón y queso, preparado con nuestro pan de miga, dorado por fuera y con el queso bien fundido en su interior. Simple, reconfortante y siempre efectivo." 
-    },
-    {  
-        "id": 120, 
-        "name": "Tostado XL", 
-        "category": "Brunch", 
-        "price": 14500, 
-        "desc": "La versión a lo grande de nuestro tostado clásico: pan de miga, jamón y queso en abundancia, dorado al punto justo y con un relleno bien generoso. Para hambre real." 
-    },
-    {  
-        "id": 121, 
-        "name": "Tostado XL Primavera", 
-        "category": "Brunch", 
-        "price": 15500, 
-        "desc": "Una versión con un toque más fresco y a lo grande: pan de miga, tomate, lechuga, jamón y queso, dorado al punto y bien relleno." 
-    },
-    {  
-        "id": 122, 
-        "name": "Tostadas de campo", 
-        "category": "Brunch", 
-        "price": 9000, 
-        "desc": "Dos tostadas de pan de campo, doradas al momento, acompañadas con queso crema suave y mermelada. Una opción clásica, simple y reconfortante." 
-    },
-    {  
-        "id": 123, 
+    {
+        "id": 116,
+        "name": "Tostón Bastardo",
         "category": "Brunch",
-        "options":[
+        "price": 13500,
+        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con abundante palta cremosa condimentada, coronado con un cremoso huevo revuelto y el toque suave y sabroso del jamón cocido. Energía pura."
+    },
+    {
+        "id": 117,
+        "name": "Tostón Americano",
+        "category": "Brunch",
+        "price": 12500,
+        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con queso crema, un huevo y el toque irresistible de la panceta ahumada dorada y crocante con cebollita de verdeo."
+    },
+    {
+        "id": 118,
+        "name": "Tostón Avocado (VEGGIE)",
+        "category": "Brunch",
+        "price": 13500,
+        "desc": "Una rodaja gruesa de nuestro pan de campo de corteza crujiente, tostado al momento. Cubierto con palta cremosa condimentada, un huevo en su punto justo, cebolla morada fresca y tomates cherry, logrando un equilibrio fresco, suave y lleno de sabor."
+    },
+    {
+        "id": 119,
+        "name": "Tostado Clásico",
+        "category": "Brunch",
+        "price": 12000,
+        "desc": "Clásico de jamón y queso con nuestro pan de miga."
+    },
+    {
+        "id": 120,
+        "name": "Tostado XL",
+        "category": "Brunch",
+        "price": 15500,
+        "desc": "Clásico de jamón y queso con nuestro pan de miga, a lo grande."
+    },
+    {
+        "id": 121,
+        "name": "Tostado XL Primavera",
+        "category": "Brunch",
+        "price": 16500,
+        "desc": "Jamón, queso, tomate y lechuga, entre dos grandes rodajas de nuestro pan de miga."
+    },
+    {
+        "id": 122,
+        "name": "Tostadas de campo",
+        "category": "Brunch",
+        "price": 9000,
+        "desc": "Dos tostadas de pan de campo, doradas al momento, acompañadas con queso crema suave y mermelada. Una opción clásica, simple y reconfortante."
+    },
+    {
+        "id": 123,
+        "category": "Brunch",
+        "options": [
             {
-                "label":"Medialunas dulces",
+                "label": "Medialunas dulces",
                 "add": "C/U",
-                "price":2500
+                "price": 2500
             },
             {
-                "label":"Medialunas saladas",
+                "label": "Medialunas saladas",
                 "add": "C/U",
-                "price":2500
+                "price": 2500
             },
             {
-                "label":"Medialunas de Jamón y Queso",
+                "label": "Medialunas de Jamón y Queso",
                 "add": "C/U",
-                "price":4200
+                "price": 4200
             }
         ]
     },
-    {  
-        "id": 126, 
-        "name": "Jamón y Queso", 
-        "category": "Sándwiches en Pan de Campo", 
-        "price": 13500, 
-        "desc": "Rodajas gruesas de nuestro pan de campo tostado, rellenas con generosas fetas de jamón cocido natural de primera calidad y abundante queso Tybo fundido que se estira al morder." 
+    {
+        "id": 126,
+        "name": "Jamón y Queso",
+        "category": "Sándwiches en Pan de Campo",
+        "price": 13500,
+        "desc": "Rodajas gruesas de nuestro pan de campo tostado, rellenas con generosas fetas de jamón cocido natural de primera calidad y abundante queso Tybo fundido que se estira al morder."
     },
-    {  
-        "id": 127, 
-        "name": "Crudo, Rúcula Y Parmesano", 
-        "category": "Sándwiches en Pan de Campo", 
-        "price": 15500, 
-        "desc": "Finas lonjas de jamón crudo seleccionado, el frescor picante de la rúcula selvática, virutas de queso parmesano estacionado y un toque de aceite de oliva virgen extra para amalgamar todo." 
+    {
+        "id": 127,
+        "name": "Crudo, Rúcula Y Parmesano",
+        "category": "Sándwiches en Pan de Campo",
+        "price": 15500,
+        "desc": "Finas lonjas de jamón crudo seleccionado, el frescor picante de la rúcula selvática, virutas de queso parmesano estacionado y un toque de aceite de oliva virgen extra para amalgamar todo."
     },
-    {  
-        "id": 128, 
-        "name": "De verduras asadas (Veggie)", 
-        "category": "Sándwiches en Pan de Campo", 
-        "price": 13500, 
-        "desc": "Una selección colorida de verduras de estación (berenjenas, zuchinis, morrones y cebollas) asadas lentamente para concentrar su dulzor, acompañadas de un untable cremoso de hierbas entre panes tostados." 
+    {
+        "id": 128,
+        "name": "De verduras asadas (Veggie)",
+        "category": "Sándwiches en Pan de Campo",
+        "price": 13500,
+        "desc": "Una selección colorida de verduras de estación (berenjenas, zuchinis, morrones y cebollas) asadas lentamente para concentrar su dulzor, acompañadas de un untable cremoso de hierbas entre panes tostados."
     },
-    {  
-        "id": 129, 
-        "name": "Pizza Individual", 
-        "category": "Menú Sin TACC", 
-        "price": 15000
+    {
+        "id": 129,
+        "name": "Pizza Individual",
+        "category": "Menú Sin TACC",
+        "price": 18000
     },
-    {  
-        "id": 130, 
-        "name": "Milanesa de carne o pollo", 
-        "category": "Menú Sin TACC", 
-        "price": 19000
+    {
+        "id": 130,
+        "name": "Mila de carne o pollo con papas",
+        "category": "Menú Sin TACC",
+        "price": 20000
     },
-    {  
-        "id": 131, 
-        "name": "Hamburguesa con papas", 
-        "category": "Menú Sin TACC", 
-        "price": 16500, 
-        "options":[
+    {
+        "id": 131,
+        "name": "Hamburguesa con papas",
+        "category": "Menú Sin TACC",
+        "price": 18000,
+        "options": [
             {
-                "label":"Opcional: lechuga y tomate",
-                "price":2000
+                "label": "Opcional: lechuga y tomate",
+                "price": 2000
             },
             {
-                "label":"Opcional: huevo y cheddar",
-                "price":3000
+                "label": "Opcional: huevo y cheddar",
+                "price": 3000
             }
         ]
     },
-    {  
-        "id": 132, 
-        "name": "Chocotorta", 
-        "category": "Menú Sin TACC", 
+    {
+        "id": 132,
+        "name": "Chocotorta",
+        "category": "Menú Sin TACC",
+        "price": 13500
+    },
+    {
+        "id": 133,
+        "name": "Postre Oreo",
+        "category": "Menú Sin TACC",
         "price": 12500
     },
-    {  
-        "id": 133, 
-        "name": "Postre Oreo", 
-        "category": "Menú Sin TACC", 
-        "price": 12500
-    },
-    {  
-        "id": 135, 
-        "name": "Quesadillas", 
-        "category": "Entradas", 
+    {
+        "id": 135,
+        "name": "Quesadillas",
+        "category": "Entradas",
         "desc": "Quesadillas de tortilla dorada y rellenas de queso fundido, acompañadas de papas fritas y dip de alioli o guacamole.",
-        "options":[
+        "options": [
             {
-                "label":"Verduras Asadas",
-                "price":16000
+                "label": "Verduras Asadas",
+                "price": 16000
             },
             {
-                "label":"Pollo",
-                "price":17000
+                "label": "Pollo",
+                "price": 17000
             },
             {
-                "label":"Bondiola",
-                "price":17000
+                "label": "Bondiola",
+                "price": 17000
             }
         ]
     },
-    {  
-        "id": 139, 
-        "name": "Sándwich de vacío", 
-        "category": "Sándwiches en Pan Ciabatta", 
-        "price": 22000, 
-        "desc": "Vacío tierno y jugoso, cocido lentamente para resaltar su sabor, servido en pan crocante, ideal para quienes buscan un sándwich bien sabroso y contundente." 
+    {
+        "id": 139,
+        "name": "Sándwich de vacío",
+        "category": "Sándwiches en Pan Ciabatta",
+        "price": 23000,
+        "desc": "Vacío tierno y jugoso, cocido lentamente para resaltar su sabor, acompañado de queso gratinado y finas hojas de rúcula, ideal para una comida contundente."
     },
-    {  
-        "id": 140, 
-        "name": "Stella", 
-        "category": "Cervezas tiradas", 
-        "price": 6000, 
-        "desc": ""
-    },
-    {  
-        "id": 141, 
-        "name": "Cerveza Michelob", 
-        "category": "Menú Sin TACC", 
+    {
+        "id": 141,
+        "name": "Cerveza Michelob",
+        "category": "Menú Sin TACC",
         "price": 7500
     },
-    {  
-        "id": 143, 
-        "name": "Tequeños", 
-        "category": "Tapeos", 
-        "price": 19000, 
-        "desc": "8 bastones de masa dorados y crocantes, rellenos de queso fundido. Un clásico irresistible, perfectos para compartir." 
+    {
+        "id": 143,
+        "name": "Tequeños",
+        "category": "Tapeos",
+        "price": 19000,
+        "desc": "8 bastones de masa dorados y crocantes, rellenos de queso fundido. Un clásico irresistible, perfectos para compartir."
     },
-    {  
-        "id": 144, 
-        "name": "Croissants", 
-        "category": "Brunch", 
-        "options":[
+    {
+        "id": 144,
+        "name": "Croissants",
+        "category": "Brunch",
+        "options": [
             {
-                "label":"Jamón y Muzza con huevo revuelto",
-                "price":12000
+                "label": "Jamón y Muzza con huevo revuelto",
+                "price": 12000
             },
             {
-                "label":"Jamón crudo, rúcula y cherry confitado",
-                "price":14000
+                "label": "Jamón crudo, rúcula y cherry confitado",
+                "price": 14000
             },
             {
-                "label":"Queso crema, palta , tomate y huevo revuelto",
-                "price":13000
+                "label": "Queso crema, palta , tomate y huevo revuelto",
+                "price": 13000
             }
         ]
     },
-    {  
-        "id": 145, 
-        "name": "Tostado jamón y queso x2", 
-        "category": "Menú Sin TACC", 
-        "price": 12000
+    {
+        "id": 145,
+        "name": "Tostado jamón y queso x2",
+        "category": "Menú Sin TACC",
+        "price": 12500
     },
-    {  
-        "id": 146, 
-        "name": "Avocado toast", 
-        "category": "Menú Sin TACC", 
-        "price": 13500
+    {
+        "id": 146,
+        "name": "Avocado toast",
+        "category": "Menú Sin TACC",
+        "price": 14000
     }
 ]

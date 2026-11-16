@@ -3,6 +3,7 @@ import fallbackMenu from '../data/menu.json';
 import tags from '../data/tags.json';
 import { groupByCategory } from '../js/menu';
 import { getMenu } from '../services/menuService';
+import { hideSplash } from '../js/splash';
 import { MenuTemplate } from '../components/templates/MenuTemplate';
 
 export default function MenuPage() {
@@ -26,13 +27,12 @@ export default function MenuPage() {
     };
   }, []);
 
-  if (!items) {
-    return (
-      <div className="d-flex justify-content-center align-items-center vh-100">
-        <p className="tenor-sans-regular text-white text-uppercase">Cargando menú…</p>
-      </div>
-    );
-  }
+  useEffect(() => {
+    if (items) hideSplash();
+  }, [items]);
+
+  // Mientras carga se ve la pantalla de carga de index.html
+  if (!items) return null;
 
   return <MenuTemplate categories={tags} groupedItems={groupByCategory(items)} />;
 }

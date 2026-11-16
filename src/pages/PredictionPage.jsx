@@ -9,6 +9,7 @@ import {
 } from "../js/prediction";
 import { submitPrediction } from "../services/predictionService";
 import { SuccessCard } from "../components/molecules/SuccessCard";
+import { hideSplash } from "../js/splash";
 
 export default function PredictionPage() {
 
@@ -22,6 +23,10 @@ export default function PredictionPage() {
         text: "",
         type: ""
     });
+
+    useEffect(() => {
+        hideSplash();
+    }, []);
 
     useEffect(() => {
         if (!state?.code) {

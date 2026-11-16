@@ -4,6 +4,7 @@ import {
 } from "react-bootstrap-icons";
 
 import pedidosYa from "../../assets/pedidosya.png";
+import rappi from "../../assets/rappi.png";
 import ball from "../../assets/ball_icon.png";
 
 import { FloatingButton } from "../atoms/FloatingButton";
@@ -63,6 +64,22 @@ export function FloatingMenu() {
             />
 
             <FloatingButton
+                href="https://www.rappi.com.ar/restaurantes/delivery/107985-bastardo-coffee"
+                label="Pedir por Rappi"
+                icon={
+                    <img
+                        src={rappi}
+                        alt="Rappi"
+                        width={56}
+                        height={56}
+                        className="rounded-circle"
+                    />
+                }
+                color="light"
+                extraClassName="p-0 border-0 overflow-hidden"
+            />
+
+            <FloatingButton
                 href="https://www.pedidosya.com.ar/restaurantes/bahia-blanca/bastardo-coffee-35dcaafd-4cec-4135-922f-9bbf3fd080c9-menu?origin=shop_list"
                 icon={
                     <img
@@ -74,7 +91,7 @@ export function FloatingMenu() {
             />
 
             <FloatingButton
-                href="https://wa.me/5492914050815"
+                href="https://wa.me/5492914403676"
                 icon={<Whatsapp size={22} />}
                 color="success"
             />
